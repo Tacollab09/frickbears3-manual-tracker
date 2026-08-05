@@ -1,0 +1,107 @@
+[
+  {
+    "name": "circusbabyrentals",
+    "access_rules": [
+      "talbert_files, night5compcheck"
+    ],
+    "children": [
+  {
+    "name": "Ballora",
+    "sections": [
+      {
+        "name": "Inspect Ballora",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_5",
+        "x": 795,
+        "y": 504
+      }
+    ]
+  },
+  {
+    "name": "Circus Baby",
+    "sections": [
+      {
+        "name": "Inspect Circus Baby",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_5",
+        "x": 910,
+        "y": 288  
+      }
+    ]
+  },
+  {
+    "name": "Funtime Freddy",
+    "sections": [
+      {
+        "name": "Inspect Funtime Freddy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_5",
+        "x": 611,
+        "y": 489
+      }
+    ]
+  },
+  {
+    "name": "Funtime Foxy",
+    "sections": [
+      {
+        "name": "Inspect Funtime Foxy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_5",
+        "x": 1033,
+        "y": 506
+      }
+    ]
+  },
+  {
+    "name": "Lolbit",
+    "sections": [
+      {
+        "name": "Inspect Lolbit :3",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_5",
+        "x": 1144,
+        "y": 270
+      }
+    ]
+  },
+  {
+    "name": "Lolzhax",
+    "sections": [
+      {
+        "name": "Inspect Lolhax",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_5",
+        "x": 1014,
+        "y": 730
+      }
+    ]
+  }
+    ]
+  }
+  
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "name": "FreddyFazbears",
+    "access_rules": ["night1compcheck"],
+    "children": [
+    
+      {
+    "name": "Chica's Feeding Frenzy",
+    "sections": [
+      {
+        "name": "Collect Chica's Feeding Frenzy Arcade Board",
+        "item_count": 1
+      },
+      {
+        "name": "Collect Chica's Feeding Frenzy Present",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 794,
+        "y": 550
+      }
+    ]
+  },
+  {
+    "name": "Puppet",
+    "access_rules": [
+      "progressive_present1", "progressive_present2", "progressive_present3", "progressive_present4"
+    ],
+    "sections": [
+      {
+        "name": "Collect Freddy Mask",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 998,
+        "y": 278
+      }
+    ]
+  },
+  {
+    "name": "Hachet",
+    "sections": [
+      {
+        "name": "Collect Hachet",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 1202,
+        "y": 664
+      }
+    ]
+  },
+  {
+    "name": "Endo",
+    "sections": [
+      {
+        "name": "Inspect Endo",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 1180,
+        "y": 674
+      }
+    ]
+  },
+  {
+    "name": "Golden Freddy",
+    "sections": [
+      {
+        "name": "Inspect Golden Freddy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 840,
+        "y": 446
+      }
+    ]
+  },
+  {
+    "name": "Springtrap",
+    "access_rules": [
+      "hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Inspect Springtrap",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 754,
+        "y": 758
+      }
+    ]
+  },
+  {
+    "name": "Withered Bonnie",
+    "sections": [
+      {
+        "name": "Inspect Withered Bonnie",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 1094,
+        "y": 440
+      }
+    ]
+  },
+  {
+    "name": "Withered Chica",
+    "sections": [
+      {
+        "name": "Inspect Withered Chica",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 622,
+        "y": 704
+      }
+    ]
+  },
+  {
+    "name": "Withered Foxy",
+    "sections": [
+      {
+        "name": "Inspect Withered Foxy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 1128,
+        "y": 532
+      }
+    ]
+  },
+  {
+    "name": "Withered Freddy",
+    "sections": [
+      {
+        "name": "Inspect Withered Freddy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 992,
+        "y": 750
+      }
+    ]
+  },
+  {
+    "name": "Upgrade Cadet",
+    "visibility_rules": [
+          //cadet stories check
+          "cadetstoriesenabled"
+        ],
+    "sections": [
+      {
+        "name": "Upgrade Cadet Story 1",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_1",
+        "x": 998,
+        "y": 477
+      }
+    ]
+  }
+    ]
+  }
+  
+]

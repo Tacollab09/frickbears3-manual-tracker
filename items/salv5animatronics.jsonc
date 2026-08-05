@@ -1,0 +1,75 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "salv5animatronics",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/night5compdebug.png",
+        "img_mods": "@disabled",
+        "codes": "salv5numb0"
+      },
+      {
+        "img": "images/items/night5compdebug.png",
+        "img_mods": "overlay|images/items/progone.png",
+        "codes": "salv5numb1"
+      },
+      {
+        "img": "images/items/night5compdebug.png",
+        "img_mods": "overlay|images/items/progtwo.png",
+        "codes": "salv5numb2"
+      },
+      {
+        "img": "images/items/night5compdebug.png",
+        "img_mods": "overlay|images/items/progthree.png",
+        "codes": "salv5numb3"
+      },
+      {
+        "img": "images/items/night5compdebug.png",
+        "img_mods": "overlay|images/items/progfour.png",
+        "codes": "salv5numb4"
+      },
+      {
+        "img": "images/items/night5compdebug.png",
+        "img_mods": "overlay|images/items/progfive.png",
+        "codes": "salv5numb5"
+      },
+      {
+        "img": "images/items/night5compdebug.png",
+        "img_mods": "overlay|images/items/progsix.png",
+        "codes": "salv5numb6"
+      }
+    ]
+  },
+  {
+    "name": "ballora",
+    "type": "toggle",
+    "codes": "ballora_key"
+  },
+  {
+    "name": "circus baby",
+    "type": "toggle",
+    "codes": "circus_baby_key"
+   },
+  {
+    "name": "funtime foxy",
+    "type": "toggle",
+    "codes": "funtime_foxy_key"
+  },
+  {
+    "name": "funtime freddy",
+    "type": "toggle",
+    "codes": "funtime_freddy_key"
+   },
+  {
+    "name": "lolbit",
+    "type": "toggle",
+    "codes": "lolbit_key"
+  },
+  {
+    "name": "lolzhax",
+    "type": "toggle",
+    "codes": "lolzhax_key"
+   }
+]

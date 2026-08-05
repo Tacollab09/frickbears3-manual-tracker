@@ -1,0 +1,1682 @@
+[
+  {
+    "name": "Animatronic Checks",
+    "children": [
+      {
+    // ROW ONE    
+    "name": "Freddy",
+    "sections": [
+      {
+        "name": "Survive a Night with Freddy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Freddy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 112,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Bonnie",
+    "sections": [
+      {
+        "name": "Survive a Night with Bonnie Active",
+        "item_count": 1
+      },
+      {
+        "name": "Bonnie Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 247,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Chica",
+    "sections": [
+      {
+        "name": "Survive a Night with Chica Active",
+        "item_count": 1
+      },
+      {
+        "name": "Chica Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 383,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Foxy",
+    "sections": [
+      {
+        "name": "Survive a Night with Foxy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Foxy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 518,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Golden Freddy",
+    "access_rules": [
+      "golden_freddy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Golden Freddy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Golden Freddy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Endo",
+    "access_rules": [
+      "Endo_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Endo Active",
+        "item_count": 1
+      },
+      {
+        "name": "Endo Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 790,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Toy Freddy",
+    "access_rules": [
+      "toy_freddy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Toy Freddy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Toy Freddy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 925,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Toy Bonnie",
+    "access_rules": [
+      "toy_bonnie_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Toy Bonnie Active",
+        "item_count": 1
+      },
+      {
+        "name": "Toy Bonnie Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1061,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Toy Chica",
+    "access_rules": [
+      "toy_chica_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Toy Chica Active",
+        "item_count": 1
+      },
+      {
+        "name": "Toy Chica Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1196,
+        "y": 242
+      }
+    ]
+  },
+  // ROW TWO
+  {
+    "name": "Mangle",
+    "access_rules": [
+      "mangle_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Mangle Active",
+        "item_count": 1
+      },
+      {
+        "name": "Mangle Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1332,
+        "y": 242
+      }
+    ]
+  },
+  {
+    "name": "Withered Freddy",
+    "access_rules": [
+      "withered_freddy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Withered Freddy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Withered Freddy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 112,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "Withered Bonnie",
+    "access_rules": [
+      "withered_bonnie_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Withered Bonnie Active",
+        "item_count": 1
+      },
+      {
+        "name": "Withered Bonnie Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 247,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "Withered Chica",
+    "access_rules": [
+      "withered_chica_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Withered Chica Active",
+        "item_count": 1
+      },
+      {
+        "name": "Withered Chica Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 383,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "Withered Foxy",
+    "access_rules": [
+      "withered_foxy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Withered Foxy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Withered Foxy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 518,
+        "y": 423
+      }
+    ]
+  },
+  // THE BB CHECKS, fuckass stupid creature
+  {
+    //BB EASY SLACKER GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "easy, slacker", "easy, money"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb1"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB NORMAL SLACKER GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "normal, slacker", "normal, money"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb2"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB HARD, SLACKER GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "hard, slacker", "hard, money"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb3"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB EASY, EVIL GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "easy, evil"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB NORMAL, EVIL GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "normal, evil"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb2, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB HARD, EVIL GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "hard, evil"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb3, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB EASY, GOOD GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "easy, good"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb1, freddy_mask_key, progressive_present1"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB NORMAL, GOOD GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "normal, good"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb2, freddy_mask_key, progressive_present1"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB HARD, GOOD GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "hard, good"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb3, freddy_mask_key, progressive_present1"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB EASY, ULTIM GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "easy, ultim"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb1, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB NORMAL, ULTIM GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "normal, ultim"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb2, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB HARD, ULTIM GOAL
+    "name": "BB",
+    "visibility_rules": [
+      "hard, ultim"
+    ],
+    "access_rules": [
+      "night1compcheck, salv1numb3, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    //BB LUNATIC
+    "name": "BB",
+    "visibility_rules": [
+      "lunatic"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "JJ",
+    "access_rules": [
+      "jj_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with JJ Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 790,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "Puppet",
+    "sections": [
+      {
+        "name": "Survive a Night with Puppet Active",
+        "item_count": 1
+      },
+      {
+        "name": "Puppet Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 925,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "Shadow Freddy",
+    "access_rules": [
+      "shadow_freddy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Shadow Freddy Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1061,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "RWQFSFASXC",
+    "access_rules": [
+      "rwqfsfasxc_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with RWQFSFASXC Active",
+        "item_count": 1
+      },
+      {
+        "name": "RWQFSFASXC Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1196,
+        "y": 423
+      }
+    ]
+  },
+  {
+    "name": "The Phantoms",
+    "access_rules": [
+      "phantoms_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with The Phantoms Active",
+        "item_count": 1
+      },
+      {
+        "name": "The Phantoms Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1332,
+        "y": 423
+      }
+    ]
+  },
+  // ROW THREE
+  {
+    "name": "Springtrap",
+    "access_rules": [
+      "Springtrap_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Springtrap Active",
+        "item_count": 1
+      },
+      {
+        "name": "Springtrap Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 112,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Plushtrap",
+    "access_rules": [
+      "plushtrap_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Plushtrap Active",
+        "item_count": 1
+      },
+      {
+        "name": "Plushtrap Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 247,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Nightmare Fredbear",
+    "access_rules": [
+      "nmfredbear_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Nightmare Fredbear Active",
+        "item_count": 1
+      },
+      {
+        "name": "Nightmare Fredbear Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 383,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Nightmare BB",
+    "access_rules": [
+      "nmbb_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Nightmare BB Active",
+        "item_count": 1
+      },
+      {
+        "name": "Nightmare BB Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 518,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Nightmarionne",
+    "access_rules": [
+      "nightmarionne_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Nightmarionne Active",
+        "item_count": 1
+      },
+      {
+        "name": "Nightmarionne Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 653,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Lolbit :3",
+    "access_rules": [
+      "lolbit_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Lolbit Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 790,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Circus Baby",
+    "access_rules": [
+      "circus_baby_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Circus Baby Active",
+        "item_count": 1
+      },
+      {
+        "name": "Circus Baby Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 925,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Funtime Freddy",
+    "access_rules": [
+      "funtime_freddy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Funtime Freddy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Funtime Freddy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1061,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Funtime Foxy",
+    "access_rules": [
+      "funtime_foxy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Funtime Foxy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Funtime Foxy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1195,
+        "y": 602
+      }
+    ]
+  },
+  {
+    "name": "Ballora",
+    "access_rules": [
+      "ballora_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Ballora Active",
+        "item_count": 1
+      },
+      {
+        "name": "Ballora Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1332,
+        "y": 602
+      }
+    ]
+  },
+  // ROW FOUR
+  {
+    "name": "Helpy",
+    "access_rules": [
+      "helpy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Helpy Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 112,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Music Man",
+    "access_rules": [
+      "music_man_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Music Man Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 247,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Mr. Hippo",
+    "access_rules": [
+      "hippo_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Mr. Hippo Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 383,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Lefty",
+    "access_rules": [
+      "lefty_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Lefty Active",
+        "item_count": 1
+      },
+      {
+        "name": "Lefty Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 518,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Molten Freddy",
+    "access_rules": [
+      "molten_freddy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Molten Freddy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Molten Freddy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 653,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Scrap Baby",
+    "access_rules": [
+      "scrap_baby_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Scrap Baby Active",
+        "item_count": 1
+      },
+      {
+        "name": "Scrap Baby Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 789,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Twisted Wolf",
+    "access_rules": [
+      "twistedwolf_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Twisted Wolf Active",
+        "item_count": 1
+      },
+      {
+        "name": "Twisted Wolf Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 925,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Malhare",
+    "access_rules": [
+      "malhare_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Malhare Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1061,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "Dreadbear",
+    "access_rules": [
+      "Dreadbear_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Dreadbear Active",
+        "item_count": 1
+      },
+      {
+        "name": "Dreadbear Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1195,
+        "y": 783
+      }
+    ]
+  },
+  {
+    "name": "LolzHax",
+    "access_rules": [
+      "lolzhax_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Lolzhax Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1332,
+        "y": 783
+      }
+    ]
+  },
+  // BONUS ANIM ROW
+  {
+    "name": "Coffee",
+    "access_rules": [
+      "coffee_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Coffee Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 113,
+        "y": 965
+      }
+    ]
+  },
+  {
+    "name": "Animdude",
+    "access_rules": [
+      "anim_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Animdude Active",
+        "item_count": 1
+      },
+      {
+        "name": "Animdude Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 247,
+        "y": 965
+      }
+    ]
+  },
+  {
+    "name": "Chipper",
+    "access_rules": [
+      "chipper_key"
+    ],
+    "sections": [
+      {
+        "access_rules": [
+        "chipper_lumber_shop"
+        ],
+        "name": "Survive a Night with Chipper Active",
+        "item_count": 1
+      },
+      {
+        "name": "Chipper Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 383,
+        "y": 965
+      }
+    ]
+  },
+  {
+    "name": "Sparky",
+    "access_rules": [
+      "sparky_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Sparky Active",
+        "item_count": 1
+      },
+      {
+        "name": "Sparky Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 518,
+        "y": 965
+      }
+    ]
+  },
+  {
+    "name": "Candy",
+    "access_rules": [
+      "candy_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Candy Active",
+        "item_count": 1
+      },
+      {
+        "name": "Candy Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 654,
+        "y": 965
+      }
+    ]
+  },
+  {
+    "name": "Popgoes",
+    "access_rules": [
+      "popgoes_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Popgoes Active",
+        "item_count": 1
+      },
+      {
+        "name": "Popgoes Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 790,
+        "y": 965
+      }
+    ]
+  },
+  {
+    "name": "Rodney 'Ever get Kneecapped by a Bird before?' Redbird",
+    "access_rules": [
+      "rodney_key"
+    ],
+    "sections": [
+      {
+        "name": "Survive a Night with Rodney Active",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 925,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX EASY
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb1"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled, easy"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX NORMAL
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb2"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled, normal"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX HARD
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb3"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled, hard"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX LUNATIC
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb4"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled, lunatic"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    "name": "Funtime Chica",
+    "access_rules": [
+      "kings_prize_shop_1"
+    ],
+    "sections": [
+      {
+        "name": "Funtime Chica Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check
+          "deathenabled"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1196,
+        "y": 965
+      }
+    ]
+  }
+    ]
+  }
+]

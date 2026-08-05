@@ -1,0 +1,198 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Mimic Ball",
+    "type": "toggle",
+    "img": "images/items/mimic_ball.png",
+    "codes": "mimic_ball_shop"
+  },
+  {
+    "name": "King Prize",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/kings_prize_1.png",
+        "codes": "kings_prize_shop_1"
+      },
+      {
+        "img": "images/items/kings_prize_2.png",
+        "codes": "kings_prize_shop_2"
+      },
+      {
+        "img": "images/items/kings_prize_3.png",
+        "codes": "kings_prize_shop_3"
+      },
+      {
+        "img": "images/items/kings_prize_4.png",
+        "codes": "kings_prize_shop_4"
+      },
+      {
+        "img": "images/items/kings_prize_5.png",
+        "codes": "kings_prize_shop_5"
+      }
+    ]
+  },
+  {
+    "name": "Rewind Clock",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/rewind_clock_1.png",
+        "codes": "rewind_clock_shop_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/rewind_clock_2.png",
+        "codes": "rewind_clock_shop_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Battery Pack",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/battery_1.png",
+        "codes": "battery_pack_shop_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/battery_2.png",
+        "codes": "battery_pack_shop_2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/battery_3.png",
+        "codes": "battery_pack_shop_3",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Snowcone",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/snowcone_1.png",
+        "codes": "snowcone_shop_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/snowcone_2.png",
+        "codes": "snowcone_shop_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Golden Cupcake",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/cupcake_1.png",
+        "codes": "golden_cupcake_shop_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/cupcake_2.png",
+        "codes": "golden_cupcake_shop_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "AR Mask",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/mask_1.png",
+        "codes": "ar_mask_shop_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/mask_2.png",
+        "codes": "ar_mask_shop_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Laser Doors",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/door_1.png",
+        "codes": "laser_doors_shop_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/door_2.png",
+        "codes": "laser_doors_shop_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Bear Trap",
+    "type": "toggle",
+    "img": "images/items/beartrap.png",
+    "codes": "bear_trap_shop"
+  },
+  {
+    "name": "Death coin",
+    "type": "toggle",
+    "img": "images/items/deathcoin.png",
+    "codes": "death_coin_shop"
+  },
+  {
+    "name": "Distortion Clock",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/speedclock_1.png",
+        "codes": "distortion_clock_shop_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/speedclock_2.png",
+        "codes": "distortion_clock_shop_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Pickles",
+    "type": "toggle",
+    "img": "images/items/pickles.png",
+    "codes": "pickles_shop"
+  },
+  {
+    "name": "High-Quality Lumber",
+    "type": "toggle",
+    "img": "images/items/chipper_lumber.png",
+    "codes": "chipper_lumber_shop"
+  },
+  {
+    "name": "Tokens (L bozo)",
+    "type": "consumable",
+    "img": "images/items/token.png",
+    "codes": "token"
+  }
+]

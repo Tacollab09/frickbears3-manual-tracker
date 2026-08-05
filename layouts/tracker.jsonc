@@ -1,0 +1,238 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "good_ending"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Evil Ending Requirements",
+              "dock": "bottom",
+              "content": {
+                "type": "layout",
+                "key": "evil_ending"
+              }
+            },
+            {
+              "type": "group",
+              "header": "upgrades",
+              "dock": "bottom",
+              "content": {
+                "type": "layout",
+                "key": "upgrades_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Mendo's Shop",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "shop_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "DEBUG",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "debug_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Animatronics Available",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Animatronics_Available"
+                ]
+              }
+            },
+            {
+              "title": "Salvage 1",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Salvage_1"
+                ]
+              }
+            },
+            {
+              "title": "Route Progression",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Route_Progression"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Good Ending + Files",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "good_ending"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Evil Ending Requirements",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "evil_ending"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Upgrades",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "upgrades_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Mendo's Shop",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "shop_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Night Checker and Salvage animatronic amounts",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "debug_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Animatronics Available",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Animatronics_Available"
+                ]
+              }
+            },
+            {
+              "title": "Salvages",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+              "title": "Salvage 1",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Salvage_1"
+                ]
+              }
+            },
+                  {
+              "title": "Salvage 2",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Salvage_2"
+                ]
+              }
+            },
+                  {
+              "title": "Salvage 3",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Salvage_3"
+                ]
+              }
+            },
+                  {
+              "title": "Salvage 4",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Salvage_4"
+                ]
+              }
+            },
+                  {
+              "title": "Salvage 5",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Salvage_5"
+                ]
+              }
+            }
+                ]
+              }
+            },
+            {
+              "title": "Route Progression",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Route_Progression"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

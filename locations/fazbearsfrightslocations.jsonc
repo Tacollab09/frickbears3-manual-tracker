@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Fazbearsfrights",
+    "access_rules": ["night3compcheck"],
+    "children": [
+      {
+    "name": "Hare Pairs",
+    "sections": [
+      {
+        "name": "Collect Hare Pairs Arcade Board",
+        "item_count": 1
+      },
+      {
+        "name": "Collect Hare Pairs Present",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 1065,
+        "y": 513
+      }
+    ]
+  },
+  {
+    "name": "Puppet",
+        "access_rules": [
+     "progressive_present3", "progressive_present4"
+    ],
+    "sections": [
+      {
+        "name": "Collect Chica Mask",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 839,
+        "y": 366
+      }
+    ]
+  },
+  {
+    "name": "Freddy Poster",
+    "sections": [
+      {
+        "name": "Inspect Freddy Poster",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 738,
+        "y": 687
+      }
+    ]
+  },
+  {
+    "name": "Office",
+    "sections": [
+      {
+        "name": "Inspect Dialpad Wall",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 929,
+        "y": 392
+      }
+    ]
+  },
+  {
+    "name": "Helpy",
+    "sections": [
+      {
+        "name": "Inspect Helpy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 922,
+        "y": 646
+      }
+    ]
+  },
+  {
+    "name": "Malhare",
+    "sections": [
+      {
+        "name": "Inspect Malhare",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 1046,
+        "y": 626  
+      }
+    ]
+  },
+  {
+    "name": "Scrap Baby",
+    "access_rules": [
+      "code_prog2"
+    ],
+    "sections": [
+      {
+        "name": "Inspect Scrap Baby",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 924,
+        "y": 294
+      }
+    ]
+  },
+  {
+    "name": "Mr. Hippo",
+    "sections": [
+      {
+        "name": "Inspect Mr. Hippo",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 740,
+        "y": 482
+      }
+    ]
+  },
+  {
+    "name": "Music Man",
+    "sections": [
+      {
+        "name": "Inspect Music Man",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 662,
+        "y": 484
+      }
+    ]
+  },
+  {
+    "name": "Shadow Freddy",
+    "sections": [
+      {
+        "name": "Inspect Shadow Freddy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 954,
+        "y": 350
+      }
+    ]
+  },
+  {
+    "name": "The Phantoms",
+    "sections": [
+      {
+        "name": "Inspect The Phantoms",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 816,
+        "y": 534
+      }
+    ]
+  },
+  {
+    "name": "Upgrade Cadet",
+    "visibility_rules": [
+          //cadet stories check
+          "cadetstoriesenabledenabled"
+        ],
+    "sections": [
+      {
+        "name": "Upgrade Cadet Story 3",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_3",
+        "x": 906,
+        "y": 698
+      }
+    ]
+  }
+    ]
+  }
+  
+]

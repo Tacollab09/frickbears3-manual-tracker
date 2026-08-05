@@ -1,0 +1,81 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "salv4animatronics",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/night4compdebug.png",
+        "img_mods": "@disabled",
+        "codes": "salv4numb0"
+      },
+      {
+        "img": "images/items/night4compdebug.png",
+        "img_mods": "overlay|images/items/progone.png",
+        "codes": "salv4numb1"
+      },
+      {
+        "img": "images/items/night4compdebug.png",
+        "img_mods": "overlay|images/items/progtwo.png",
+        "codes": "salv4numb2"
+      },
+      {
+        "img": "images/items/night4compdebug.png",
+        "img_mods": "overlay|images/items/progthree.png",
+        "codes": "salv4numb3"
+      },
+      {
+        "img": "images/items/night4compdebug.png",
+        "img_mods": "overlay|images/items/progfour.png",
+        "codes": "salv4numb4"
+      },
+      {
+        "img": "images/items/night4compdebug.png",
+        "img_mods": "overlay|images/items/progfive.png",
+        "codes": "salv4numb5"
+      },
+      {
+        "img": "images/items/night4compdebug.png",
+        "img_mods": "overlay|images/items/progsix.png",
+        "codes": "salv4numb6"
+      }
+    ]
+  },
+  {
+    "name": "Molten Freddy",
+    "type": "toggle",
+    "img": "images/items/molten_freddy.png",
+    "codes": "molten_freddy_key"
+  },
+  {
+    "name": "Dreadbear",
+    "type": "toggle",
+    "codes": "dreadbear_key"
+  },
+  {
+    "name": "Nightmare BB",
+    "type": "toggle",
+    "codes": "nmbb_key"
+  },
+  {
+    "name": "Nightmare Fredbear",
+    "type": "toggle",
+    "codes": "nmfredbear_key"
+  },
+  {
+    "name": "Nightmarionne",
+    "type": "toggle",
+    "codes": "nightmarionne_key"
+  },
+  {
+    "name": "Plushtrap",
+    "type": "toggle",
+    "codes": "plushtrap_key"
+  },
+  {
+    "name": "Twisted Wolf",
+    "type": "toggle",
+    "codes": "twistedwolf_key"
+  }
+]

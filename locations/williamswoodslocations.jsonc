@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Willwoods",
+    "access_rules": ["night4compcheck"],
+    "children": [
+      {
+    "name": "Pirate Plunder",
+    "sections": [
+      {
+        "name": "Collect Pirate Plunder Arcade Board",
+        "item_count": 1
+      },
+      {
+        "name": "Collect Pirate Plunder Present",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 979,
+        "y": 357
+      }
+    ]
+  },
+  {
+    "name": "Puppet",
+    "access_rules": [
+      "progressive_present4"
+    ],
+    "sections": [
+      {
+        "name": "Collect Foxy Mask",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 912,
+        "y": 521
+      }
+    ]
+  },
+  {
+    "name": "Locked Box",
+    "sections": [
+      {
+        "name": "Inspect Locked Box",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 810,
+        "y": 376
+      }
+    ]
+  },
+  {
+    "name": "Dreadbear",
+    "sections": [
+      {
+        "name": "Inspect Dreadbear",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 752,
+        "y": 516
+      }
+    ]
+  },
+  {
+    "name": "Nightmare BB",
+    "sections": [
+      {
+        "name": "Inspect Nightmare BB",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 807,
+        "y": 307  
+      }
+    ]
+  },
+  {
+    "name": "Molten Freddy",
+    "access_rules": [
+      "box_code2"
+    ],
+    "sections": [
+      {
+        "name": "Inspect Molten Freddy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 811,
+        "y": 352
+      }
+    ]
+  },
+  {
+    "name": "Nightmare Fredbear",
+    "sections": [
+      {
+        "name": "Inspect Nightmare Fredbear",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 910,
+        "y": 566
+      }
+    ]
+  },
+  {
+    "name": "Nightmarionne",
+    "sections": [
+      {
+        "name": "Inspect Nightmarionne",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 942,
+        "y": 256
+      }
+    ]
+  },
+  {
+    "name": "Plushtrap",
+    "sections": [
+      {
+        "name": "Inspect Plushtrap",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 968,
+        "y": 653
+      }
+    ]
+  },
+  {
+    "name": "Twisted Wolf",
+    "sections": [
+      {
+        "name": "Inspect Twisted Wolf",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 1074,
+        "y": 549
+      }
+    ]
+  },
+  {
+    "name": "Upgrade Cadet",
+    "visibility_rules": [
+          //cadet stories check
+          "cadetstoriesenabledenabled"
+        ],
+    "sections": [
+      {
+        "name": "Upgrade Cadet Story 4",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_4",
+        "x": 855,
+        "y": 675
+      }
+    ]
+  }
+    ]
+  }
+  
+]

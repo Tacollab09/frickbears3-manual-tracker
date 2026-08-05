@@ -1,0 +1,198 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "good_ending": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              [
+                "freddy_mask_key",
+                "bonnie_mask_key",
+                "progressive_present"
+
+              ],
+              [                
+                "chica_mask_key",
+                "foxy_mask_key",
+                "talbert_files"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "upgrades_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              [
+                "overcharge_upgrade",
+                "head_start_upgrade",
+                "early_investment_upgrade",
+                "fuzzy_dice_upgrade",
+                "progressive_mini_multiplier_upgrade",
+                "backdoor_trading_upgrade",
+                "superfan_upgrade",
+                "felixs_loan_upgrade",
+                "bear_change_upgrade",
+                "retina_burner_upgrade",
+                "cupcake_cart"
+
+              ],
+              [                
+                "power_hour_upgrade",
+                "late_start_upgrade",
+                "tasty_investment_upgrade",
+                "upgrade_commander_upgrade",
+                "all_ears_upgrade",
+                "employee_discount_upgrade",
+                "cam_radar_upgrade",
+                "overstock_upgrade",
+                "power_ac_upgrade",
+                "spawnkiller_upgrade",
+                "mangle_cart",
+                "anim_cart"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "shop_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              [
+                "mimic_ball_shop",
+                "kings_prize_shop_1",
+                "rewind_clock_shop_1",
+                "battery_pack_shop_1",
+                "snowcone_shop_1",
+                "golden_cupcake_shop_1",
+                "token"
+
+              ],
+              [                
+                "ar_mask_shop_1",
+                "laser_doors_shop_1",
+                "bear_trap_shop",
+                "death_coin_shop",
+                "distortion_clock_shop_1",
+                "pickles_shop",
+                "chipper_lumber_shop"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "evil_ending": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              [
+                "springtrap_key",
+                "lefty_key",
+                "scrap_baby_key",
+                "molten_freddy_key"
+              ],
+              [
+                "hachet_key",
+                "parts_and_services_key",
+                "keypad_code",
+                "box_code"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "settings_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "2,2",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": 4,
+        "margin": "0,0",
+        "h_alignment": "center",
+        "rows": [
+          ["death","cadetstories", "chardiff", "goal"]
+        ]
+      }
+    ]
+  },
+  "debug_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "2,2",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2, 2",
+        "item_size": 4,
+        "margin": "0,0",
+        "h_alignment": "center",
+        "rows": [
+          ["night1compcheck", "night2compcheck", "night3compcheck", "night4compcheck", "night5compcheck"],
+          ["salv1numb0", "salv2numb0", "salv3numb0", "salv4numb0", "salv5numb0"]
+        ]
+      }
+    ]
+  }
+
+}

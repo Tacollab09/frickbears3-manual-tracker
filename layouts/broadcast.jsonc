@@ -1,0 +1,40 @@
+{
+  //sets the layout for the broadcast view
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "layout",
+            "key": "good_ending"
+          },
+          {
+            "type": "layout",
+            "key": "evil_ending"
+          },
+          {
+            "type": "layout",
+            "key": "shop_grid"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "layout",
+            "key": "upgrades_grid"
+          }
+        ]
+      }
+    ]
+  }
+}

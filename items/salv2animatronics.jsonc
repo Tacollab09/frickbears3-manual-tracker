@@ -1,0 +1,81 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "salv2animatronics",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/night2compdebug.png",
+        "img_mods": "@disabled",
+        "codes": "salv2numb0"
+      },
+      {
+        "img": "images/items/night2compdebug.png",
+        "img_mods": "overlay|images/items/progone.png",
+        "codes": "salv2numb1"
+      },
+      {
+        "img": "images/items/night2compdebug.png",
+        "img_mods": "overlay|images/items/progtwo.png",
+        "codes": "salv2numb2"
+      },
+      {
+        "img": "images/items/night2compdebug.png",
+        "img_mods": "overlay|images/items/progthree.png",
+        "codes": "salv2numb3"
+      },
+      {
+        "img": "images/items/night2compdebug.png",
+        "img_mods": "overlay|images/items/progfour.png",
+        "codes": "salv2numb4"
+      },
+      {
+        "img": "images/items/night2compdebug.png",
+        "img_mods": "overlay|images/items/progfive.png",
+        "codes": "salv2numb5"
+      },
+      {
+        "img": "images/items/night2compdebug.png",
+        "img_mods": "overlay|images/items/progsix.png",
+        "codes": "salv2numb6"
+      }
+    ]
+  },
+  {
+    "name": "Lefty",
+    "type": "toggle",
+    "img": "images/items/lefty.png",
+    "codes": "lefty_key"
+  },
+  {
+    "name": "JJ",
+    "type": "toggle",
+    "codes": "jj_key"
+  },
+  {
+    "name": "Mangle",
+    "type": "toggle",
+    "codes": "mangle_key"
+  },
+  {
+    "name": "RWQFSFASXC",
+    "type": "toggle",
+    "codes": "rwqfsfasxc_key"
+  },
+  {
+    "name": "Toy Bonnie",
+    "type": "toggle",
+    "codes": "toy_bonnie_key"
+  },
+  {
+    "name": "Toy Chica",
+    "type": "toggle",
+    "codes": "toy_chica_key"
+  },
+  {
+    "name": "Toy Freddy",
+    "type": "toggle",
+    "codes": "toy_freddy_key"
+  }
+]

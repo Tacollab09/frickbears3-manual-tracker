@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Animatronics_Available",
+    "location_size": 35,
+    "location_border_thickness": 5,
+    "img": "images/maps/animatronic_mapupdated.png"
+  },
+  {
+    "name": "Salvage_1",
+    "location_size": 10,
+    "location_border_thickness": 4,
+    "img": "images/maps/salvage_1_map.png"
+  },
+  {
+    "name": "Salvage_2",
+    "location_size": 10,
+    "location_border_thickness": 4,
+    "img": "images/maps/salvage_2_map.png"
+  },
+  {
+    "name": "Salvage_3",
+    "location_size": 10,
+    "location_border_thickness": 4,
+    "img": "images/maps/salvage_3_map.png"
+  },
+  {
+    "name": "Salvage_4",
+    "location_size": 10,
+    "location_border_thickness": 4,
+    "img": "images/maps/salvage_4_map.png"
+  },
+  {
+    "name": "Salvage_5",
+    "location_size": 10,
+    "location_border_thickness": 4,
+    "img": "images/maps/salvage_5_map.png"
+  },
+  {
+    "name": "Route_Progression",
+    "location_size": 20,
+    "location_border_thickness": 4,
+    "img": "images/maps/route_prog.png"
+  }
+]

@@ -1,0 +1,326 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Progressive Mini Multiplier",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/progressive_mini_multiplier.png",
+        "codes": "progressive_mini_multiplier_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_mini_multiplier_plus.png",
+        "codes": "progressive_mini_multiplier_2_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/progressive_mini_multiplier_plus_plus.png",
+        "codes": "progressive_mini_multiplier_3_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Overcharge",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/overcharge.png",
+        "codes": "overcharge_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/overcharge_plus.png",
+        "codes": "overcharge_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Power Hour",
+    "type": "toggle",
+    "img": "images/items/power_hour.png",
+    "codes": "power_hour_upgrade"
+  },
+  {
+    "name": "Progressive Employee Discount",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/employee_discount.png",
+        "codes": "employee_discount_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/employee_discount_plus.png",
+        "codes": "employee_discount_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Backdoor Trading",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/backdoor.png",
+        "codes": "backdoor_trading_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/backdoor_plus.png",
+        "codes": "backdoor_trading_plus_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/backdoor_plus_plus.png",
+        "codes": "backdoor_trading_plus_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Cam Radar",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/cam_radar.png",
+        "codes": "cam_radar_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/cam_radar_plus.png",
+        "codes": "cam_radar_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Superfan",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/super_fan.png",
+        "codes": "superfan_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/super_fan_plus.png",
+        "codes": "superfan_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Head Start",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/head_start.png",
+        "codes": "head_start_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/head_start_plus.png",
+        "codes": "head_start_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Late Start (unsure if it's part of prog head start, weird coding)",
+    "type": "toggle",
+    "img": "images/items/late_start.png",
+    "codes": "late_start_upgrade"
+  },
+  {
+    "name": "Overstock",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/overstock.png",
+        "codes": "overstock_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/overstock_plus.png",
+        "codes": "overstock_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Early Investment",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/early_investment.png",
+        "codes": "early_investment_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/early_investment_plus.png",
+        "codes": "early_investment_plus_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/early_investment_plus_plus.png",
+        "codes": "early_investment_plus_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Tasty Investment (unsure if it's part of prog early investment, weird coding)",
+    "type": "toggle",
+    "img": "images/items/tasty_investment.png",
+    "codes": "tasty_investment_upgrade"
+  },
+  {
+    "name": "Progressive Felix's Loan",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/felixs_loan.png",
+        "codes": "felixs_loan_upgrade"
+      },
+      {
+        "img": "images/items/felixs_loan_plus.png",
+        "codes": "felixs_loan_plus_upgrade"
+      },
+      {
+        "img": "images/items/felixs_loan_plus_plus.png",
+        "codes": "felixs_loan_plus_plus_upgrade"
+      }
+    ]
+  },
+  {
+    "name": "Progressive Power AC",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/power_ac.png",
+        "codes": "power_ac_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/power_ac_plus.png",
+        "codes": "power_ac_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Fuzzy Dice",
+    "type": "toggle",
+    "img": "images/items/fuzzy_dice.png",
+    "codes": "fuzzy_dice_upgrade"
+  },
+  {
+    "name": "Upgrade Commander",
+    "type": "toggle",
+    "img": "images/items/upgrade_commander.png",
+    "codes": "upgrade_commander_upgrade"
+  },
+  {
+    "name": "Progressive Bear Change",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/bear_change.png",
+        "codes": "bear_change_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/bear_change_plus.png",
+        "codes": "bear_change_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive All Ears",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/all_ears.png",
+        "codes": "all_ears_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/cool_glasses.png",
+        "codes": "cool_glasses_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive Retina Burner(note: the dev didnt know RB+ existed)",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/retina_burner.png",
+        "codes": "retina_burner_upgrade",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/retina_burner_plus.png",
+        "codes": "retina_burner_plus_upgrade",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Spawnkiller",
+    "type": "toggle",
+    "img": "images/items/spawn_killer.png",
+    "codes": "spawnkiller_upgrade"
+  },
+  {
+    "name": "Mangle Cartridge",
+    "type": "toggle",
+    "img": "images/items/mangle_cartridge.png",
+    "codes": "mangle_cart"
+  },
+  {
+    "name": "Animdude Cartridge",
+    "type": "toggle",
+    "img": "images/items/anim_cartridge.png",
+    "codes": "anim_cart"
+  },
+  {
+    "name": "Cupcake Cartridge",
+    "type": "toggle",
+    "img": "images/items/cupcake_cartridge.png",
+    "codes": "cupcake_cart"
+  }
+]

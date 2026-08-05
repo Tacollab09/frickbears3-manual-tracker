@@ -1,0 +1,199 @@
+[
+  {
+    "name": "NewFreddyFazbears",
+    "access_rules": ["night2compcheck"],
+    "children": [
+      {
+    "name": "Puppet Patrol",
+    "sections": [
+      {
+        "name": "Collect Puppet Patrol Arcade Board",
+        "item_count": 1
+      },
+      {
+        "name": "Collect Puppet Patrol Present",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 847,
+        "y": 661
+      }
+    ]
+  },
+  {
+    "name": "Puppet",
+    "access_rules": [
+      "progressive_present2", "progressive_present3", "progressive_present4"
+    ],
+    "sections": [
+      {
+        "name": "Collect Bonnie Mask",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 661,
+        "y": 360
+      }
+    ]
+  },
+  {
+    "name": "BB",
+    "sections": [
+      {
+        "name": "Parts and Service Key From BB",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 893,
+        "y": 580
+      }
+    ]
+  },
+  {
+    "name": "JJ",
+    "sections": [
+      {
+        "name": "Inspect JJ",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 1154,
+        "y": 448
+      }
+    ]
+  },
+  {
+    "name": "Mangle",
+    "sections": [
+      {
+        "name": "Inspect Mangle",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 716,
+        "y": 663
+      }
+    ]
+  },
+  {
+    "name": "Lefty",
+    "access_rules": [
+      "parts_and_services_key"
+    ],
+    "sections": [
+      {
+        "name": "Inspect Lefty",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 1109,
+        "y": 265
+      }
+    ]
+  },
+  {
+    "name": "Toy Bonnie",
+    "sections": [
+      {
+        "name": "Inspect Toy Bonnie",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 978,
+        "y": 275
+      }
+    ]
+  },
+  {
+    "name": "Toy Chica",
+    "sections": [
+      {
+        "name": "Inspect Toy Chica",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 909,
+        "y": 446
+      }
+    ]
+  },
+  {
+    "name": "RWQFSFASXC",
+    "sections": [
+      {
+        "name": "Inspect RWQFSFASXC",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 781,
+        "y": 301
+      }
+    ]
+  },
+  {
+    "name": "Toy Freddy",
+    "sections": [
+      {
+        "name": "Inspect Toy Freddy",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 1132,
+        "y": 668
+      }
+    ]
+  },
+  {
+    "name": "Upgrade Cadet",
+    "visibility_rules": [
+          //cadet stories check
+          "cadetstoriesenabled"
+        ],
+    "sections": [
+      {
+        "name": "Upgrade Cadet Story 2",
+        "item_count": 1
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Salvage_2",
+        "x": 895,
+        "y": 756
+      }
+    ]
+  }
+    ]
+  }
+  
+]

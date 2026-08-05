@@ -1,0 +1,81 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+ {
+    "name": "salv1animatronics",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/night1compdebug.png",
+        "img_mods": "@disabled",
+        "codes": "salv1numb0"
+      },
+      {
+        "img": "images/items/night1compdebug.png",
+        "img_mods": "overlay|images/items/progone.png",
+        "codes": "salv1numb1"
+      },
+      {
+        "img": "images/items/night1compdebug.png",
+        "img_mods": "overlay|images/items/progtwo.png",
+        "codes": "salv1numb2"
+      },
+      {
+        "img": "images/items/night1compdebug.png",
+        "img_mods": "overlay|images/items/progthree.png",
+        "codes": "salv1numb3"
+      },
+      {
+        "img": "images/items/night1compdebug.png",
+        "img_mods": "overlay|images/items/progfour.png",
+        "codes": "salv1numb4"
+      },
+      {
+        "img": "images/items/night1compdebug.png",
+        "img_mods": "overlay|images/items/progfive.png",
+        "codes": "salv1numb5"
+      },
+      {
+        "img": "images/items/night1compdebug.png",
+        "img_mods": "overlay|images/items/progsix.png",
+        "codes": "salv1numb6"
+      }
+    ]
+  },
+  {
+    "name": "Springtrap",
+    "type": "toggle",
+    "img": "images/items/spring.png",
+    "codes": "springtrap_key"
+  },
+  {
+    "name": "Withered Freddy",
+    "type": "toggle",
+    "codes": "withered_freddy_key, salv1numb0"
+  },
+  {
+    "name": "Withered Bonnie",
+    "type": "toggle",
+    "codes": "withered_bonnie_key, salv1numb0"
+  },
+  {
+    "name": "Withered Chica",
+    "type": "toggle",
+    "codes": "withered_chica_key, salv1numb0"
+  },
+  {
+    "name": "Withered Foxy",
+    "type": "toggle",
+    "codes": "withered_foxy_key, salv1numb0"
+  },
+  {
+    "name": "Golden Freddy",
+    "type": "toggle",
+    "codes": "golden_freddy_key, salv1numb0"
+  },
+  {
+    "name": "Endo",
+    "type": "toggle",
+    "codes": "endo_key, salv1numb0"
+  }
+]

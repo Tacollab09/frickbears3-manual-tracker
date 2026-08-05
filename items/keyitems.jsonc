@@ -1,0 +1,115 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Hachet",
+    "type": "toggle",
+    "img": "images/items/hachet.png",
+    "codes": "hachet_key"
+  },
+  {
+    "name": "Parts and Services Key",
+    "type": "toggle",
+    "img": "images/items/parts_key.png",
+    "codes": "parts_and_services_key"
+  },
+  {
+    "name": "395248",
+    "type": "toggle",
+    "img": "images/items/code_prog2.png",
+    "codes": "keypad_code"
+  },
+  {
+    "name": "Locked Box Code",
+    "type": "toggle",
+    "img": "images/items/opened_box.png",
+    "codes": "box_code"
+  },
+  {
+    "name": "Freddy Mask",
+    "type": "toggle",
+    "img": "images/items/freddy_mask.png",
+    "codes": "freddy_mask_key"
+  },
+  {
+    "name": "Bonnie Mask",
+    "type": "toggle",
+    "img": "images/items/bonnie_mask.png",
+    "codes": "bonnie_mask_key"
+  },
+  {
+    "name": "Chica Mask",
+    "type": "toggle",
+    "img": "images/items/chica_mask.png",
+    "codes": "chica_mask_key"
+  },
+  {
+    "name": "Foxy Mask",
+    "type": "toggle",
+    "img": "images/items/foxy_mask.png",
+    "codes": "foxy_mask_key"
+  },
+  {
+    "name": "Progressive Present",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/overstock.png",
+        "img_mods": "@disabled",
+        "codes": "progressive_present"
+      },
+      {
+        "img": "images/items/prog_pres1.png",
+        "codes": "progressive_present1"
+      },
+      {
+        "img": "images/items/prog_pres2.png",
+        "codes": "progressive_present2"
+      },
+      {
+        "img": "images/items/prog_pres3.png",
+        "codes": "progressive_present3"
+      },
+      {
+        "img": "images/items/prog_pres4.png",
+        "codes": "progressive_present4"
+      }
+    ]
+  },
+  {
+    "name": "Talbert Files",
+    "type": "toggle",
+    "img": "images/items/talbert_files.png",
+    "codes": "talbert_files"
+  },
+  {
+    "name": "night1comp",
+    "type": "toggle",
+    "img": "images/items/night1compdebug.png",
+    "codes": "night1compcheck"
+  },
+  {
+    "name": "night2comp",
+    "type": "toggle",
+    "img": "images/items/night2compdebug.png",
+    "codes": "night2compcheck"
+  },
+  {
+    "name": "night3comp",
+    "type": "toggle",
+    "img": "images/items/night3compdebug.png",
+    "codes": "night3compcheck"
+  },
+  {
+    "name": "night4comp",
+    "type": "toggle",
+    "img": "images/items/night4compdebug.png",
+    "codes": "night4compcheck"
+  },
+  {
+    "name": "night5comp",
+    "type": "toggle",
+    "img": "images/items/night5compdebug.png",
+    "codes": "night5compcheck"
+  }
+]

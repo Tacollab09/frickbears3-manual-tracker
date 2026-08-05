@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Coffee",
+        "type": "toggle",
+        "codes": "coffee_key"
+    }, 
+    {
+        "name": "Animdude",
+        "type": "toggle",
+        "codes": "anim_key"
+    }, 
+    {
+        "name": "Chipper",
+        "type": "toggle",
+        "codes": "chipper_key"
+    }, 
+    {
+        "name": "Sparky",
+        "type": "toggle",
+        "codes": "sparky_key"
+    }, 
+    {
+        "name": "Candy",
+        "type": "toggle",
+        "codes": "Candy_key"
+    }, 
+    {
+        "name": "Popgoes",
+        "type": "toggle",
+        "codes": "popgoes_key"
+    }, 
+    {
+        "name": "Rodney 'Ever get Kneecapped by a Bird before?' Redbird",
+        "type": "toggle",
+        "codes": "rodney_key"
+    }
+]

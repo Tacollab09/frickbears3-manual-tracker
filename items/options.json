@@ -1,0 +1,101 @@
+[
+  {
+        "name": "Jumpscaresanity",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+        {
+          "img": "images/items/freddy_mask.png",
+          "img_mods": "@disabled",
+          "codes": "death",
+          "inherit_codes": false
+        },
+        {
+          "img": "images/items/freddy_mask.png",
+          "codes": "deathenabled",
+          "inherit_codes": false
+        }
+     ]
+  },
+  {
+        "name": "Stories",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": false,
+        "stages": [
+        {
+          "img": "images/items/storiesoption.png",
+          "img_mods": "@disabled",
+          "codes": "cadetstories",
+          "inherit_codes": false
+        },
+        {
+          "img": "images/items/storiesoption.png",
+          "codes": "cadetstoriesenabled",
+          "inherit_codes": false
+        }
+     ]
+  },
+  {
+    "name": "Difficulty",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/jeremy.png",
+        "codes": "chardiff, easy",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/mike.png",
+        "codes": "chardiff, normal",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/vanessa.png",
+        "codes": "chardiff, hard",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/fritz.png",
+        "codes": "chardiff, lunatic",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Goal Ending",
+    "type": "progressive",
+    "loop": false,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/slacker_ending.png",
+        "codes": "goal, slacker",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/evil_ending.png",
+        "codes": "goal, evil",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/money_ending.png",
+        "codes": "goal, money",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/good_ending.png",
+        "codes": "goal, good",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/ultim_ending.png",
+        "codes": "goal, ultim",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

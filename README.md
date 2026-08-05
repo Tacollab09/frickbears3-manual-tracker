@@ -1,2 +1,2 @@
 # frickbears3-manual-tracker
-pop tracker pack for wolfboi008's frickbears 3 manual
+Poptracker pack for Wolfboi008's Frickbears 3 Manual

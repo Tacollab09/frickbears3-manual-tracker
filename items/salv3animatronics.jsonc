@@ -1,0 +1,81 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "salv3animatronics",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/items/night3compdebug.png",
+        "img_mods": "@disabled",
+        "codes": "salv3numb0"
+      },
+      {
+        "img": "images/items/night3compdebug.png",
+        "img_mods": "overlay|images/items/progone.png",
+        "codes": "salv3numb1"
+      },
+      {
+        "img": "images/items/night3compdebug.png",
+        "img_mods": "overlay|images/items/progtwo.png",
+        "codes": "salv3numb2"
+      },
+      {
+        "img": "images/items/night3compdebug.png",
+        "img_mods": "overlay|images/items/progthree.png",
+        "codes": "salv3numb3"
+      },
+      {
+        "img": "images/items/night3compdebug.png",
+        "img_mods": "overlay|images/items/progfour.png",
+        "codes": "salv3numb4"
+      },
+      {
+        "img": "images/items/night3compdebug.png",
+        "img_mods": "overlay|images/items/progfive.png",
+        "codes": "salv3numb5"
+      },
+      {
+        "img": "images/items/night3compdebug.png",
+        "img_mods": "overlay|images/items/progsix.png",
+        "codes": "salv3numb6"
+      }
+    ]
+  },
+  {
+    "name": "Scrap Baby",
+    "type": "toggle",
+    "img": "images/items/Scrap_Baby.png",
+    "codes": "scrap_baby_key"
+  },
+  {
+    "name": "Helpy",
+    "type": "toggle",
+    "codes": "helpy_key"
+  },
+  {
+    "name": "Malhare",
+    "type": "toggle",
+    "codes": "malhare_key"
+  },
+  {
+    "name": "Mr. Hippo",
+    "type": "toggle",
+    "codes": "hippo_key"
+  },
+  {
+    "name": "Music Man",
+    "type": "toggle",
+    "codes": "music_man_key"
+  },
+  {
+    "name": "Shadow Freddy",
+    "type": "toggle",
+    "codes": "shadow_freddy_key"
+  },
+  {
+    "name": "The Phantoms",
+    "type": "toggle",
+    "codes": "phantoms_key"
+  }
+]
