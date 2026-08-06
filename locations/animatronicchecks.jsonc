@@ -1558,8 +1558,11 @@
       }
     ]
   },
+  // THE FELIX LOGIC
+
+  //FELIX SLACKER/MONEY LOGIC
   {
-    //FELIX EASY
+    //FELIX EASY SLACKER/MONEY
     "name": "Felix",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb1"
@@ -1569,8 +1572,8 @@
         "name": "Felix Jumpscare",
         "item_count": 1,
         "visibility_rules": [
-          //jumpscaresanity check
-          "deathenabled, easy"
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, easy, slacker", "deathenabled, easy, money"
         ]
       }
     ],
@@ -1583,7 +1586,7 @@
     ]
   },
   {
-    //FELIX NORMAL
+    //FELIX NORMAL SLACKER/MONEY
     "name": "Felix",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb2"
@@ -1593,8 +1596,8 @@
         "name": "Felix Jumpscare",
         "item_count": 1,
         "visibility_rules": [
-          //jumpscaresanity check
-          "deathenabled, normal"
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, normal, slacker", "deathenabled, normal, money"
         ]
       }
     ],
@@ -1607,7 +1610,7 @@
     ]
   },
   {
-    //FELIX HARD
+    //FELIX HARD SLACKER/MONEY
     "name": "Felix",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb3"
@@ -1617,8 +1620,8 @@
         "name": "Felix Jumpscare",
         "item_count": 1,
         "visibility_rules": [
-          //jumpscaresanity check
-          "deathenabled, hard"
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, hard, slacker", "deathenabled, hard, money"
         ]
       }
     ],
@@ -1631,7 +1634,7 @@
     ]
   },
   {
-    //FELIX LUNATIC
+    //FELIX LUNATIC SLACKER/MONEY
     "name": "Felix",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb4"
@@ -1641,8 +1644,299 @@
         "name": "Felix Jumpscare",
         "item_count": 1,
         "visibility_rules": [
-          //jumpscaresanity check
-          "deathenabled, lunatic"
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, lunatic, slacker", "deathenabled, lunatic, money"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  //FELIX EVIL LOGIC
+  {
+    //FELIX EASY EVIl
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, easy, evil"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX NORMAL EVIl
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb2, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, normal, evil"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX HARD EVIl
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb3, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, hard, evil"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX LUNATIC EVIl
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb4, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, lunatic, evil"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  //FELIX GOOD LOGIC
+  {
+    //FELIX EASY GOOD
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb1, freddy_mask_key, progressive_present1"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, easy, good"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX NORMAL GOOD
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb2, freddy_mask_key, progressive_present1"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, normal, good"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX HARD GOOD
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb3, freddy_mask_key, progressive_present1"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, hard, good"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX LUNATIC GOOD
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb4, freddy_mask_key, progressive_present1"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, lunatic, good"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  //FELIX ULTIMATE LOGIC
+  {
+    //FELIX EASY ULTIM
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb1, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, easy, ultim"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX NORMAL ULTIM
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb2, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, normal, ultim"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX HARD ULTIM
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb3, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, hard, ultim"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "Animatronics_Available",
+        "x": 1060,
+        "y": 965
+      }
+    ]
+  },
+  {
+    //FELIX LUNATIC ULTIM
+    "name": "Felix",
+    "access_rules": [
+      "felixs_loan_upgrade, night1compcheck, salv1numb4, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+    ],
+    "sections": [
+      {
+        "name": "Felix Jumpscare",
+        "item_count": 1,
+        "visibility_rules": [
+          //jumpscaresanity check, also checks if its available based on goal and difficulty
+          "deathenabled, lunatic, ultim"
         ]
       }
     ],
