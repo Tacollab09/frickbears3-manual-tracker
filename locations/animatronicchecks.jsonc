@@ -371,9 +371,10 @@
     ]
   },
   // THE BB CHECKS, fuckass stupid creature
+  //BB SLACKER
   {
     //BB EASY SLACKER GOAL
-    "name": "BB",
+    "name": "BB easy",
     "visibility_rules": [
       "easy, slacker", "easy, money"
     ],
@@ -382,11 +383,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on easy",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB easy Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -404,7 +405,7 @@
   },
   {
     //BB NORMAL SLACKER GOAL
-    "name": "BB",
+    "name": "BB normal",
     "visibility_rules": [
       "normal, slacker", "normal, money"
     ],
@@ -413,11 +414,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on normal",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB normal Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -435,7 +436,7 @@
   },
   {
     //BB HARD, SLACKER GOAL
-    "name": "BB",
+    "name": "BB hard",
     "visibility_rules": [
       "hard, slacker", "hard, money"
     ],
@@ -444,11 +445,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on hard",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB hard Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -464,9 +465,10 @@
       }
     ]
   },
+  //BB EVIL
   {
     //BB EASY, EVIL GOAL
-    "name": "BB",
+    "name": "BB evil easy",
     "visibility_rules": [
       "easy, evil"
     ],
@@ -475,11 +477,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on easy (evil route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB evil easy Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -497,7 +499,7 @@
   },
   {
     //BB NORMAL, EVIL GOAL
-    "name": "BB",
+    "name": "BB evil normal",
     "visibility_rules": [
       "normal, evil"
     ],
@@ -506,11 +508,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on normal (evil route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB evil normal Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -528,7 +530,7 @@
   },
   {
     //BB HARD, EVIL GOAL
-    "name": "BB",
+    "name": "BB hard evil",
     "visibility_rules": [
       "hard, evil"
     ],
@@ -537,11 +539,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on hard (evil route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB hard evil Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -557,9 +559,10 @@
       }
     ]
   },
+  //BB GOOD
   {
     //BB EASY, GOOD GOAL
-    "name": "BB",
+    "name": "BB good easy",
     "visibility_rules": [
       "easy, good"
     ],
@@ -568,11 +571,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on easy (good route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB good easy Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -590,7 +593,7 @@
   },
   {
     //BB NORMAL, GOOD GOAL
-    "name": "BB",
+    "name": "BB good normal",
     "visibility_rules": [
       "normal, good"
     ],
@@ -599,11 +602,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on normal (good route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB good normal Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -621,7 +624,7 @@
   },
   {
     //BB HARD, GOOD GOAL
-    "name": "BB",
+    "name": "BB good hard",
     "visibility_rules": [
       "hard, good"
     ],
@@ -630,11 +633,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on hard (good route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB good hard Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -650,9 +653,10 @@
       }
     ]
   },
+  //BB ULTIM
   {
     //BB EASY, ULTIM GOAL
-    "name": "BB",
+    "name": "BB ultim easy",
     "visibility_rules": [
       "easy, ultim"
     ],
@@ -661,11 +665,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on easy (ultim route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB ultim easy Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -683,7 +687,7 @@
   },
   {
     //BB NORMAL, ULTIM GOAL
-    "name": "BB",
+    "name": "BB ultim normal",
     "visibility_rules": [
       "normal, ultim"
     ],
@@ -692,11 +696,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on normal (ultim route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB ultim normal Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -714,7 +718,7 @@
   },
   {
     //BB HARD, ULTIM GOAL
-    "name": "BB",
+    "name": "BB ultim hard",
     "visibility_rules": [
       "hard, ultim"
     ],
@@ -723,11 +727,11 @@
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on hard (ultim route)",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB ultim hard Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -743,19 +747,20 @@
       }
     ]
   },
+  //BB LUNATIC (its its own thing cause yeah)
   {
     //BB LUNATIC
-    "name": "BB",
+    "name": "BB lunatic",
     "visibility_rules": [
       "lunatic"
     ],
     "sections": [
       {
-        "name": "Survive a Night with BB Active",
+        "name": "Survive a Night with BB Active on lunatic",
         "item_count": 1
       },
       {
-        "name": "BB Jumpscare",
+        "name": "BB lunatic Jumpscare",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check
@@ -1563,13 +1568,13 @@
   //FELIX SLACKER/MONEY LOGIC
   {
     //FELIX EASY SLACKER/MONEY
-    "name": "Felix",
+    "name": "Felix easy",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb1"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare easy",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1587,13 +1592,13 @@
   },
   {
     //FELIX NORMAL SLACKER/MONEY
-    "name": "Felix",
+    "name": "Felix normal",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb2"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare normal",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1611,13 +1616,13 @@
   },
   {
     //FELIX HARD SLACKER/MONEY
-    "name": "Felix",
+    "name": "Felix hard",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb3"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare hard",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1635,13 +1640,13 @@
   },
   {
     //FELIX LUNATIC SLACKER/MONEY
-    "name": "Felix",
+    "name": "Felix lunatic",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb4"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare lunatic",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1660,13 +1665,13 @@
   //FELIX EVIL LOGIC
   {
     //FELIX EASY EVIl
-    "name": "Felix",
+    "name": "Felix evil easy",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb1, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare evil easy",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1684,13 +1689,13 @@
   },
   {
     //FELIX NORMAL EVIl
-    "name": "Felix",
+    "name": "Felix evil normal",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb2, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare evil normal",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1708,13 +1713,13 @@
   },
   {
     //FELIX HARD EVIl
-    "name": "Felix",
+    "name": "Felix evil hard",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb3, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare evil hard",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1732,13 +1737,13 @@
   },
   {
     //FELIX LUNATIC EVIl
-    "name": "Felix",
+    "name": "Felix evil lunatic",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb4, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare evil lunatic",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1757,13 +1762,13 @@
   //FELIX GOOD LOGIC
   {
     //FELIX EASY GOOD
-    "name": "Felix",
+    "name": "Felix good easy",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb1, freddy_mask_key, progressive_present1"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare good easy",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1781,13 +1786,13 @@
   },
   {
     //FELIX NORMAL GOOD
-    "name": "Felix",
+    "name": "Felix good normal",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb2, freddy_mask_key, progressive_present1"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare good normal",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1805,13 +1810,13 @@
   },
   {
     //FELIX HARD GOOD
-    "name": "Felix",
+    "name": "Felix good hard",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb3, freddy_mask_key, progressive_present1"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare good hard",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1829,13 +1834,13 @@
   },
   {
     //FELIX LUNATIC GOOD
-    "name": "Felix",
+    "name": "Felix good lunatic",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb4, freddy_mask_key, progressive_present1"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare good lunatic",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1854,13 +1859,13 @@
   //FELIX ULTIMATE LOGIC
   {
     //FELIX EASY ULTIM
-    "name": "Felix",
+    "name": "Felix ultim easy",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb1, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare ultim easy",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1878,13 +1883,13 @@
   },
   {
     //FELIX NORMAL ULTIM
-    "name": "Felix",
+    "name": "Felix ultim normal",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb2, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare ultim normal",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1902,13 +1907,13 @@
   },
   {
     //FELIX HARD ULTIM
-    "name": "Felix",
+    "name": "Felix ultim hard",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb3, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare ultim hard",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty
@@ -1926,13 +1931,13 @@
   },
   {
     //FELIX LUNATIC ULTIM
-    "name": "Felix",
+    "name": "Felix ultim lunatic",
     "access_rules": [
       "felixs_loan_upgrade, night1compcheck, salv1numb4, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
     ],
     "sections": [
       {
-        "name": "Felix Jumpscare",
+        "name": "Felix Jumpscare ultim lunatic",
         "item_count": 1,
         "visibility_rules": [
           //jumpscaresanity check, also checks if its available based on goal and difficulty

@@ -4,7 +4,7 @@
   // for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
   "name": "Frickbears 3 Manual Tracker",
   "game_name": "Frickbears 3",
-  "package_version": "1.0.5",
+  "package_version": "1.0.6",
   "package_uid": "fb3manualtrak",
   // enables SNES memory autotracking interface - remove/change if not needed
   "platform": "apmanual",

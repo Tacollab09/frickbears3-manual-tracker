@@ -156,7 +156,23 @@ LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 00077] = { { "@Animatronic Checks/Withered Bonnie/Survive a Night with Withered Bonnie Active", "toggle" } },
 	[BASE_LOCATION_ID + 00078] = { { "@Animatronic Checks/Withered Chica/Survive a Night with Withered Chica Active", "toggle" } },
 	[BASE_LOCATION_ID + 00079] = { { "@Animatronic Checks/Withered Foxy/Survive a Night with Withered Foxy Active", "toggle" } },
-	[BASE_LOCATION_ID + 00080] = { { "@Animatronic Checks/BB/Survive a Night with BB Active", "toggle" } },
+	[BASE_LOCATION_ID + 00080] = { { "@Animatronic Checks/BB easy/Survive a Night with BB Active on easy", "toggle" }, 
+								   { "@Animatronic Checks/BB normal/Survive a Night with BB Active on normal", "toggle" }, 
+								   { "@Animatronic Checks/BB hard/Survive a Night with BB Active on hard", "toggle" },
+								   --evil checks
+								   { "@Animatronic Checks/BB evil easy/Survive a Night with BB Active on easy (evil route)", "toggle" }, 
+								   { "@Animatronic Checks/BB evil normal/Survive a Night with BB Active on normal (evil route)", "toggle" }, 
+								   { "@Animatronic Checks/BB evil hard/Survive a Night with BB Active on hard (evil route)", "toggle" },
+								   --good checks
+								   { "@Animatronic Checks/BB good easy/Survive a Night with BB Active on easy (good route)", "toggle" }, 
+								   { "@Animatronic Checks/BB good normal/Survive a Night with BB Active on normal (good route)", "toggle" }, 
+								   { "@Animatronic Checks/BB good hard/Survive a Night with BB Active on hard (good route)", "toggle" },
+								   --ultim checks
+								   { "@Animatronic Checks/BB ultim easy/Survive a Night with BB Active on easy (ultim route)", "toggle" }, 
+								   { "@Animatronic Checks/BB ultim normal/Survive a Night with BB Active on normal (ultim route)", "toggle" }, 
+								   { "@Animatronic Checks/BB ultim hard/Survive a Night with BB Active on hard (ultim route)", "toggle" },
+								   { "@Animatronic Checks/BB lunatic/Survive a Night with BB Active on lunatic", "toggle" } },
+
 	[BASE_LOCATION_ID + 00081] = { { "@Animatronic Checks/JJ/Survive a Night with JJ Active", "toggle" } },
 	[BASE_LOCATION_ID + 00082] = { { "@Animatronic Checks/Puppet/Survive a Night with Puppet Active", "toggle" } },
 	[BASE_LOCATION_ID + 00083] = { { "@Animatronic Checks/Shadow Freddy/Survive a Night with Shadow Freddy Active", "toggle" } },
@@ -205,7 +221,23 @@ LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 00124] = { { "@Animatronic Checks/Withered Bonnie/Withered Bonnie Jumpscare", "toggle" } },
 	[BASE_LOCATION_ID + 00125] = { { "@Animatronic Checks/Withered Chica/Withered Chica Jumpscare", "toggle" } },
 	[BASE_LOCATION_ID + 00126] = { { "@Animatronic Checks/Withered Foxy/Withered Foxy Jumpscare", "toggle" } },
-	[BASE_LOCATION_ID + 00127] = { { "@Animatronic Checks/BB/BB Jumpscare", "toggle" } },
+	[BASE_LOCATION_ID + 00127] = { { "@Animatronic Checks/BB easy/BB easy Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB normal/BB normal Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB hard/BB hard Jumpscare", "toggle" },
+								   --evil checks
+								   { "@Animatronic Checks/BB evil easy/BB evil easy Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB evil normal/BB evil normal Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB evil hard/BB evil hard Jumpscare", "toggle" },
+								   --good checks
+								   { "@Animatronic Checks/BB good easy/BB good easy Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB good normal/BB good normal Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB good hard/BB good hard Jumpscare", "toggle" },
+								   --ultim checks
+								   { "@Animatronic Checks/BB ultim easy/BB ultim easy Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB ultim normal/BB ultim normal Jumpscare", "toggle" }, 
+	                               { "@Animatronic Checks/BB ultim hard/BB ultim hard Jumpscare", "toggle" },
+								   { "@Animatronic Checks/BB lunatic/BB lunatic Jumpscare ", "toggle" } },
+
 	[BASE_LOCATION_ID + 00128] = { { "@Animatronic Checks/Puppet/Puppet Jumpscare", "toggle" } },
 	[BASE_LOCATION_ID + 00129] = { { "@Animatronic Checks/RWQFSFASXC/RWQFSFASXC Jumpscare", "toggle" } },
 	[BASE_LOCATION_ID + 00130] = { { "@Animatronic Checks/The Phantoms/The Phantoms Jumpscare", "toggle" } },
@@ -228,7 +260,25 @@ LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 00147] = { { "@Animatronic Checks/Sparky/Sparky Jumpscare", "toggle" } },
 	[BASE_LOCATION_ID + 00148] = { { "@Animatronic Checks/Candy/Candy Jumpscare", "toggle" } },
 	[BASE_LOCATION_ID + 00149] = { { "@Animatronic Checks/Popgoes/Popgoes Jumpscare", "toggle" } },
-	[BASE_LOCATION_ID + 00150] = { { "@Animatronic Checks/Felix/Felix Jumpscare", "toggle" } },
+	[BASE_LOCATION_ID + 00150] = { { "@Animatronic Checks/Felix easy/Felix Jumpscare easy", "toggle" },
+								   { "@Animatronic Checks/Felix normal/Felix Jumpscare normal", "toggle" },
+								   { "@Animatronic Checks/Felix hard/Felix Jumpscare hard", "toggle" },
+								   { "@Animatronic Checks/Felix lunatic/Felix Jumpscare lunatic", "toggle" },
+								   --evil checks
+								   { "@Animatronic Checks/Felix evil easy/Felix Jumpscare evil easy", "toggle" },
+								   { "@Animatronic Checks/Felix evil normal/Felix Jumpscare evil normal", "toggle" },
+								   { "@Animatronic Checks/Felix evil hard/Felix Jumpscare evil hard", "toggle" },
+								   { "@Animatronic Checks/Felix evil lunatic/Felix Jumpscare evil lunatic", "toggle" }, 
+							 	    --good checks
+								   { "@Animatronic Checks/Felix good easy/Felix Jumpscare good easy", "toggle" },
+								   { "@Animatronic Checks/Felix good normal/Felix Jumpscare good normal", "toggle" },
+								   { "@Animatronic Checks/Felix good hard/Felix Jumpscare good hard", "toggle" },
+								   { "@Animatronic Checks/Felix good lunatic/Felix Jumpscare good lunatic", "toggle" },
+								   --ultim checks
+								   { "@Animatronic Checks/Felix ultim easy/Felix Jumpscare ultim easy", "toggle" },
+								   { "@Animatronic Checks/Felix ultim normal/Felix Jumpscare ultim normal", "toggle" },
+								   { "@Animatronic Checks/Felix ultim hard/Felix Jumpscare ultim hard", "toggle" },
+								   { "@Animatronic Checks/Felix ultim lunatic/Felix Jumpscare ultim lunatic", "toggle" } 
+							},
 	[BASE_LOCATION_ID + 00151] = { { "@Animatronic Checks/Funtime Chica/Funtime Chica Jumpscare", "toggle" } },
-	-- multiple locations on this id
 }
