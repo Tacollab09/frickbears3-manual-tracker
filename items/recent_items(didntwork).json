@@ -1,0 +1,39 @@
+[
+    //failed attempt at replicating recent items thing from the celeste poptracker
+    {
+        "name": "Recent Item",
+        "type": "static",
+        "img": "images/items/code_prog.png",
+        "codes": "recent-item-0"
+    },
+    {
+        "name": "Recent Item",
+        "type": "static",
+        "img": "images/items/code_prog.png",
+        "codes": "recent-item-1"
+    },
+    {
+        "name": "Recent Item",
+        "type": "static",
+        "img": "images/items/code_prog.png",
+        "codes": "recent-item-2"
+    },
+    {
+        "name": "Recent Item",
+        "type": "static",
+        "img": "images/items/code_prog.png",
+        "codes": "recent-item-3"
+    },
+    {
+        "name": "Recent Item",
+        "type": "static",
+        "img": "images/items/code_prog.png",
+        "codes": "recent-item-4"
+    },
+    {
+        "name": "Recent Item",
+        "type": "static",
+        "img": "images/items/code_prog.png",
+        "codes": "recent-item-5"
+    }
+]
