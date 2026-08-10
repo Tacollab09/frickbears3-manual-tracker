@@ -209,7 +209,7 @@
         "h_alignment": "center",
         "rows": [
           ["night1compcheck", "night2compcheck", "night3compcheck", "night4compcheck", "night5compcheck"],
-          ["salv1numb0", "salv2numb0", "salv3numb0", "salv4numb0", "salv5numb0"]
+          ["salv1numb0", "salv2numb0", "salv3numb0", "salv4numb0", "salv5numb0", "jj_key"]
         ]
       }
     ]

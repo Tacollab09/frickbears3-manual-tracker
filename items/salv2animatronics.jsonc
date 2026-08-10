@@ -50,6 +50,7 @@
   },
   {
     "name": "JJ",
+    "img": "images/items/night1compdebug.png",
     "type": "toggle",
     "codes": "jj_key"
   },
