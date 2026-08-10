@@ -379,7 +379,7 @@
       "easy, slacker", "easy, money"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb1"
+      "night1compcheck, salv1numb1", "bb_key"
     ],
     "sections": [
       {
@@ -410,7 +410,7 @@
       "normal, slacker", "normal, money"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb2"
+      "night1compcheck, salv1numb2", "bb_key"
     ],
     "sections": [
       {
@@ -441,7 +441,7 @@
       "hard, slacker", "hard, money"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb3"
+      "night1compcheck, salv1numb3", "bb_key"
     ],
     "sections": [
       {
@@ -473,7 +473,7 @@
       "easy, evil"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb1, springtrap_key, hachet_key"
+      "night1compcheck, salv1numb1, springtrap_key, hachet_key", "bb_key"
     ],
     "sections": [
       {
@@ -504,7 +504,7 @@
       "normal, evil"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb2, springtrap_key, hachet_key"
+      "night1compcheck, salv1numb2, springtrap_key, hachet_key", "bb_key"
     ],
     "sections": [
       {
@@ -535,7 +535,7 @@
       "hard, evil"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb3, springtrap_key, hachet_key"
+      "night1compcheck, salv1numb3, springtrap_key, hachet_key", "bb_key"
     ],
     "sections": [
       {
@@ -567,7 +567,7 @@
       "easy, good"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb1, freddy_mask_key, progressive_present1"
+      "night1compcheck, salv1numb1, freddy_mask_key, progressive_present1", "bb_key"
     ],
     "sections": [
       {
@@ -598,7 +598,7 @@
       "normal, good"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb2, freddy_mask_key, progressive_present1"
+      "night1compcheck, salv1numb2, freddy_mask_key, progressive_present1", "bb_key"
     ],
     "sections": [
       {
@@ -629,7 +629,7 @@
       "hard, good"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb3, freddy_mask_key, progressive_present1"
+      "night1compcheck, salv1numb3, freddy_mask_key, progressive_present1", "bb_key"
     ],
     "sections": [
       {
@@ -661,7 +661,7 @@
       "easy, ultim"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb1, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+      "night1compcheck, salv1numb1, freddy_mask_key, progressive_present1, springtrap_key, hachet_key", "bb_key"
     ],
     "sections": [
       {
@@ -692,7 +692,7 @@
       "normal, ultim"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb2, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+      "night1compcheck, salv1numb2, freddy_mask_key, progressive_present1, springtrap_key, hachet_key", "bb_key"
     ],
     "sections": [
       {
@@ -723,7 +723,7 @@
       "hard, ultim"
     ],
     "access_rules": [
-      "night1compcheck, salv1numb3, freddy_mask_key, progressive_present1, springtrap_key, hachet_key"
+      "night1compcheck, salv1numb3, freddy_mask_key, progressive_present1, springtrap_key, hachet_key", "bb_key"
     ],
     "sections": [
       {
