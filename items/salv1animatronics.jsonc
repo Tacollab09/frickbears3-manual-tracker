@@ -77,5 +77,11 @@
     "name": "Endo",
     "type": "toggle",
     "codes": "endo_key, salv1numb0"
+  },
+  {
+    //look where else am i going to put this freak
+    "name": "BB",
+    "type": "toggle",
+    "codes": "bb_key"
   }
 ]
