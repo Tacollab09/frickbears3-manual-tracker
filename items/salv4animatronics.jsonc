@@ -1,7 +1,7 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
-    "name": "salv4animatronics",
+    "name": "Salvage 4 Animatronics",
     "type": "progressive",
     "allow_disabled": false,
     "stages": [

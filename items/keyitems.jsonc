@@ -83,31 +83,31 @@
     "codes": "talbert_files"
   },
   {
-    "name": "night1comp",
+    "name": "Night 1 Completion",
     "type": "toggle",
     "img": "images/items/night1compdebug.png",
     "codes": "night1compcheck"
   },
   {
-    "name": "night2comp",
+    "name": "Night 2 Completion",
     "type": "toggle",
     "img": "images/items/night2compdebug.png",
     "codes": "night2compcheck"
   },
   {
-    "name": "night3comp",
+    "name": "Night 3 Completion",
     "type": "toggle",
     "img": "images/items/night3compdebug.png",
     "codes": "night3compcheck"
   },
   {
-    "name": "night4comp",
+    "name": "Night 4 Completion",
     "type": "toggle",
     "img": "images/items/night4compdebug.png",
     "codes": "night4compcheck"
   },
   {
-    "name": "night5comp",
+    "name": "Night 5 Completion",
     "type": "toggle",
     "img": "images/items/night5compdebug.png",
     "codes": "night5compcheck"

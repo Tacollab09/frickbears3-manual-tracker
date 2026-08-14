@@ -83,6 +83,200 @@
         ]
       }
     ]
+  },  
+  "upgrades_grid_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              [
+                "overcharge_upgrade",
+                "power_hour_upgrade"
+              ],
+              [
+                "head_start_upgrade",
+                "late_start_upgrade"
+              ],  
+              [
+                "early_investment_upgrade",
+                "tasty_investment_upgrade"
+              ],
+              [
+                "fuzzy_dice_upgrade",
+                "upgrade_commander_upgrade"
+              ],
+              [
+                "progressive_mini_multiplier_upgrade",
+                "all_ears_upgrade"
+              ],
+              [         
+                "backdoor_trading_upgrade",
+                "employee_discount_upgrade"
+              ],
+              [
+                "superfan_upgrade",
+                "cam_radar_upgrade"
+              ],
+              [
+                "felixs_loan_upgrade",
+                "overstock_upgrade"
+              ],
+              [
+                "bear_change_upgrade",
+                "power_ac_upgrade"
+              ],
+              [
+                "retina_burner_upgrade",
+                "spawnkiller_upgrade"
+              ],
+              [
+                "cupcake_cart",
+                "mangle_cart"
+               
+              ],
+              [ 
+                "anim_cart" 
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "broadcast_evil": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              //evil items 
+              [
+                "springtrap_key",
+                "hachet_key"
+              ],
+              [
+                "lefty_key",
+                "parts_and_services_key"
+              ],
+              [                
+                "scrap_baby_key",
+                "keypad_code"
+              ],
+              [
+                "molten_freddy_key",
+                "box_code"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },"broadcast_good": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              //good items
+              [
+                "freddy_mask_key",
+                "bonnie_mask_key"
+              ],
+              [
+                "chica_mask_key",
+                "foxy_mask_key"
+              ],  
+              [
+                "talbert_files",
+                "progressive_present"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "broadcast_shop": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_size": 4,
+            "h_alignment": "left",
+            "rows": [
+              //shop items
+              [
+                "mimic_ball_shop",
+                "ar_mask_shop_1"
+              ],
+              [
+                "kings_prize_shop_1",
+                "laser_doors_shop_1"
+              ],  
+              [
+                "rewind_clock_shop_1",
+                "bear_trap_shop"
+              ],
+              [
+                "battery_pack_shop_1",
+                "death_coin_shop"
+              ],
+              [
+                "snowcone_shop_1",
+                "distortion_clock_shop_1"
+              ],
+              [                
+                "golden_cupcake_shop_1",
+                "pickles_shop"
+              ],
+              [
+                "token",
+                "chipper_lumber_shop"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
   },
   "shop_grid": {
     "type": "array",

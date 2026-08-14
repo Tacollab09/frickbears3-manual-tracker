@@ -14,53 +14,101 @@ LOCATION_MAPPING = {
 									{ "@Lunaticdiff Ending Checks/Night 1/Survive Night 1", "toggle" } },
 
 	[BASE_LOCATION_ID + 00014] = { { "night2compcheck", "toggle" }, 
-									--goodroute2checks (unused)
-									--{ "@Easydiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" }, 
-									--{ "@Normaldiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" }, 
-									--{ "@Harddiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" }, 
-									--{ "@Lunaticdiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" },
+									--goodroute2checks
+									{ "@Easydiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" }, 
+									{ "@Harddiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Good Route Night 2/Survive Night 2", "toggle" },
 
-									--evilroute2checks (unused)
-									--{ "@Easydiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" }, 
-									--{ "@Normaldiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" }, 
-									--{ "@Harddiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" }, 
-									--{ "@Lunaticdiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" },
+									--evilroute2checks
+									{ "@Easydiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" }, 
+									{ "@Harddiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Evil Route Night 2/Survive Night 2", "toggle" },
+
+									--slackemoneyroute3checks
 
 									{ "@Easydiff Ending Checks/Night 2/Survive Night 2", "toggle" }, 
 									{ "@Normaldiff Ending Checks/Night 2/Survive Night 2", "toggle" }, 
 									{ "@Harddiff Ending Checks/Night 2/Survive Night 2", "toggle" }, 
-									{ "@Lunaticdiff Ending Checks/Night 2/Survive Night 2", "toggle" } },
+									{ "@Lunaticdiff Ending Checks/Night 2/Survive Night 2", "toggle" },
+
+									--ultimateroute3checks
+
+									{ "@Easydiff Ending Checks/Ultimate Night 2/Survive Night 2", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Ultimate Night 2/Survive Night 2", "toggle" }, 
+									{ "@Harddiff Ending Checks/Ultimate Night 2/Survive Night 2", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Ultimate Night 2/Survive Night 2", "toggle" } },
 
 	[BASE_LOCATION_ID + 00027] = { { "night3compcheck", "toggle" },  
 	
-									--goodroute3checks (unused)
-									--{ "@Easydiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" }, 
-									--{ "@Normaldiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" }, 
-									--{ "@Harddiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" }, 
-									--{ "@Lunaticdiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" },
+									--goodroute3checks
 
-									--evilroute3checks (unused)
-									--{ "@Easydiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" }, 
-									--{ "@Normaldiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" }, 
-									--{ "@Harddiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" }, 
-									--{ "@Lunaticdiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" },
+									{ "@Easydiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" }, 
+									{ "@Harddiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Good Route Night 3/Survive Night 3", "toggle" },
+
+									--evilroute3checks
+
+									{ "@Easydiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" }, 
+									{ "@Harddiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Evil Route Night 3/Survive Night 3", "toggle" },
+
+									--slackemoneyroute3checks
 
 									{ "@Easydiff Ending Checks/Night 3/Survive Night 3", "toggle" }, 
 									{ "@Normaldiff Ending Checks/Night 3/Survive Night 3", "toggle" }, 
 									{ "@Harddiff Ending Checks/Night 3/Survive Night 3", "toggle" }, 
-									{ "@Lunaticdiff Ending Checks/Night 3/Survive Night 3", "toggle" } },
+									{ "@Lunaticdiff Ending Checks/Night 3/Survive Night 3", "toggle" },
 
-	[BASE_LOCATION_ID + 00041] = { { "night4compcheck", "toggle" }, 
+									--ultimateroute3checks
+									{ "@Easydiff Ending Checks/Ultimate Night 3/Survive Night 3", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Ultimate Night 3/Survive Night 3", "toggle" }, 
+									{ "@Harddiff Ending Checks/Ultimate Night 3/Survive Night 3", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Ultimate Night 3/Survive Night 3", "toggle" } },
+
+	[BASE_LOCATION_ID + 00041] = { { "night4compcheck", "toggle" },
+	
+									--goodroute4checks
+
+									{ "@Easydiff Ending Checks/Good Route Night 4/Survive Night 4", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Good Route Night 4/Survive Night 4", "toggle" }, 
+									{ "@Harddiff Ending Checks/Good Route Night 4/Survive Night 4", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Good Route Night 4/Survive Night 4", "toggle" },
+
+									--evilroute4checks
+
+									{ "@Easydiff Ending Checks/Evil Route Night 4/Survive Night 4", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Evil Route Night 4/Survive Night 4", "toggle" }, 
+									{ "@Harddiff Ending Checks/Evil Route Night 4/Survive Night 4", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Evil Route Night 4/Survive Night 4", "toggle" },
+
+									--slackemoneyroute4checks
+
 									{ "@Easydiff Ending Checks/Night 4/Survive Night 4", "toggle" }, 
 									{ "@Normaldiff Ending Checks/Night 4/Survive Night 4", "toggle" }, 
 									{ "@Harddiff Ending Checks/Night 4/Survive Night 4", "toggle" }, 
-									{ "@Lunaticdiff Ending Checks/Night 4/Survive Night 4", "toggle" } },
+									{ "@Lunaticdiff Ending Checks/Night 4/Survive Night 4", "toggle" },
+
+									--ultimateroute4checks
+									{ "@Easydiff Ending Checks/Ultimate Night 4/Survive Night 4", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Ultimate Night 4/Survive Night 4", "toggle" }, 
+									{ "@Harddiff Ending Checks/Ultimate Night 4/Survive Night 4", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Ultimate Night 4/Survive Night 4", "toggle" } },
 
 	[BASE_LOCATION_ID + 00054] = { { "night5compcheck", "toggle" }, 
 									{ "@Easydiff Ending Checks/Slacker Ending (aka Night 5)/Survive Night 5 (Slacker Route Ending)", "toggle" }, 
 									{ "@Normaldiff Ending Checks/Slacker Ending (aka Night 5)/Survive Night 5 (Slacker Route Ending)", "toggle" }, 
 									{ "@Harddiff Ending Checks/Slacker Ending (aka Night 5)/Survive Night 5 (Slacker Route Ending)", "toggle" }, 
-									{ "@Lunaticdiff Ending Checks/Slacker Ending (aka Night 5)/Survive Night 5 (Slacker Route Ending)", "toggle" } },	
+									{ "@Lunaticdiff Ending Checks/Slacker Ending (aka Night 5)/Survive Night 5 (Slacker Route Ending)", "toggle" },
+
+									--ultimateroute4checks
+									{ "@Easydiff Ending Checks/Ultimate Night 5/Survive Night 5", "toggle" }, 
+									{ "@Normaldiff Ending Checks/Ultimate Night 5/Survive Night 5", "toggle" }, 
+									{ "@Harddiff Ending Checks/Ultimate Night 5/Survive Night 5", "toggle" }, 
+									{ "@Lunaticdiff Ending Checks/Ultimate Night 5/Survive Night 5", "toggle" } },
 									
 	--SALVAGE CHECKS
 	[BASE_LOCATION_ID + 00002] = { { "@FreddyFazbears/Withered Freddy/Inspect Withered Freddy", "toggle" } },
