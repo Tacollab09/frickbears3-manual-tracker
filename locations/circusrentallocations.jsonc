@@ -1,6 +1,9 @@
 [
   {
     "name": "circusbabyrentals",
+    "visibility_rules": [
+          "money"
+    ],
     "access_rules": [
       "talbert_files, night5compcheck"
     ],

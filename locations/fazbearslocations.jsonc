@@ -26,8 +26,11 @@
   },
   {
     "name": "Puppet",
+        "visibility_rules": [
+          "good", "ultim"
+        ],
     "access_rules": [
-      "progressive_present1", "progressive_present2", "progressive_present3", "progressive_present4"
+      "progressive_present1"
     ],
     "sections": [
       {
@@ -45,6 +48,9 @@
   },
   {
     "name": "Hachet",
+    "visibility_rules": [
+          "evil", "ultim"
+        ],
     "sections": [
       {
         "name": "Collect Hachet",
@@ -93,6 +99,9 @@
   },
   {
     "name": "Springtrap",
+    "visibility_rules": [
+          "evil", "ultim"
+        ],
     "access_rules": [
       "hachet_key"
     ],

@@ -9,39 +9,29 @@
   {
     "name": "King Prize",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/kings_prize_1.png",
-        "codes": "kings_prize_shop_1"
-      },
-      {
-        "img": "images/items/kings_prize_2.png",
-        "codes": "kings_prize_shop_2"
-      },
-      {
-        "img": "images/items/kings_prize_3.png",
-        "codes": "kings_prize_shop_3"
-      },
-      {
-        "img": "images/items/kings_prize_4.png",
-        "codes": "kings_prize_shop_4"
+        "img_mods": "@disabled",
+        "codes": "kings_prize_shop_0"
       },
       {
         "img": "images/items/kings_prize_5.png",
-        "codes": "kings_prize_shop_5"
+        "codes": "kings_prize_shop_1"
       }
     ]
   },
   {
     "name": "Rewind Clock",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/rewind_clock_1.png",
+        "img_mods": "@disabled",
         "codes": "rewind_clock_shop_1",
         "inherit_codes": false
       },
@@ -55,22 +45,18 @@
   {
     "name": "Battery Pack",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/battery_1.png",
+        "img_mods": "@disabled",
         "codes": "battery_pack_shop_1",
         "inherit_codes": false
       },
       {
-        "img": "images/items/battery_2.png",
-        "codes": "battery_pack_shop_2",
-        "inherit_codes": false
-      },
-      {
         "img": "images/items/battery_3.png",
-        "codes": "battery_pack_shop_3",
+        "codes": "battery_pack_shop_2",
         "inherit_codes": false
       }
     ]
@@ -78,11 +64,12 @@
   {
     "name": "Snowcone",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/snowcone_1.png",
+        "img_mods": "@disabled",
         "codes": "snowcone_shop_1",
         "inherit_codes": false
       },
@@ -96,11 +83,12 @@
   {
     "name": "Golden Cupcake",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/cupcake_1.png",
+        "img_mods": "@disabled",
         "codes": "golden_cupcake_shop_1",
         "inherit_codes": false
       },
@@ -114,11 +102,12 @@
   {
     "name": "AR Mask",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/mask_1.png",
+        "img_mods": "@disabled",
         "codes": "ar_mask_shop_1",
         "inherit_codes": false
       },
@@ -132,11 +121,12 @@
   {
     "name": "Laser Doors",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/door_1.png",
+        "img_mods": "@disabled",
         "codes": "laser_doors_shop_1",
         "inherit_codes": false
       },
@@ -162,11 +152,12 @@
   {
     "name": "Distortion Clock",
     "type": "progressive",
-    "allow_disabled": true,
+    "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
       {
         "img": "images/items/speedclock_1.png",
+        "img_mods": "@disabled",
         "codes": "distortion_clock_shop_1",
         "inherit_codes": false
       },

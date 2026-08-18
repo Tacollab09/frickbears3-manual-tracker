@@ -25,8 +25,11 @@
   },
   {
     "name": "Puppet",
+        "visibility_rules": [
+          "good", "ultim"
+        ],
     "access_rules": [
-      "progressive_present2", "progressive_present3", "progressive_present4"
+      "progressive_present2"
     ],
     "sections": [
       {
@@ -44,6 +47,9 @@
   },
   {
     "name": "BB",
+    "visibility_rules": [
+          "evil", "ultim"
+        ],
     "sections": [
       {
         "name": "Parts and Service Key From BB",
@@ -92,6 +98,9 @@
   },
   {
     "name": "Lefty",
+    "visibility_rules": [
+          "evil", "ultim"
+        ],
     "access_rules": [
       "parts_and_services_key"
     ],

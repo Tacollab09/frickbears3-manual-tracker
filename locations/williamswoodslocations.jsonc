@@ -25,6 +25,9 @@
   },
   {
     "name": "Puppet",
+    "visibility_rules": [
+          "good", "ultim"
+        ],
     "access_rules": [
       "progressive_present4"
     ],
@@ -44,6 +47,9 @@
   },
   {
     "name": "Locked Box",
+    "visibility_rules": [
+          "evil", "ultim"
+        ],
     "sections": [
       {
         "name": "Inspect Locked Box",
@@ -92,6 +98,9 @@
   },
   {
     "name": "Molten Freddy",
+    "visibility_rules": [
+          "evil", "ultim"
+    ],
     "access_rules": [
       "box_code"
     ],

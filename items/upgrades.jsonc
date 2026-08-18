@@ -143,7 +143,7 @@
     ]
   },
   {
-    "name": "Late Start (unsure if it's part of prog head start, weird coding)",
+    "name": "Late Start",
     "type": "toggle",
     "img": "images/items/late_start.png",
     "codes": "late_start_upgrade"
@@ -190,7 +190,7 @@
     ]
   },
   {
-    "name": "Tasty Investment (unsure if it's part of prog early investment, weird coding)",
+    "name": "Tasty Investment",
     "type": "toggle",
     "img": "images/items/tasty_investment.png",
     "codes": "tasty_investment_upgrade"
@@ -282,7 +282,7 @@
     ]
   },
   {
-    "name": "Progressive Retina Burner(note: the dev didnt know RB+ existed)",
+    "name": "Progressive Retina Burner",
     "type": "progressive",
     "allow_disabled": true,
     "initial_stage_idx": 0,
