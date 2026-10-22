@@ -1,7 +1,7 @@
 {
   "settings_popup": {
     "type": "container",
-    "background": "#000000",
+    "background": "#322e38",
     "content": {
       "type": "dock",
       "dropshadow": true,

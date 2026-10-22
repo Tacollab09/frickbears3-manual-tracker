@@ -1,13 +1,15 @@
 [
     {
-    "name": "Easydiff Ending Checks",    
-    "visibility_rules": [
-    "easy"],
+    "name": "Ending Checks",
     "children": [
-      {
+  //EVIL ENDING CHECKS
+  {
     "name": "Evil Ending (Not a check)",
     "access_rules": [
-      "salv1numb1, salv2numb1, salv3numb1, salv4numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
+      "easy, salv1numb1, salv2numb1, salv3numb1, salv4numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key",
+      "normal, salv1numb2, salv2numb2, salv3numb2, salv4numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key",
+      "hard, salv1numb3, salv2numb3, salv3numb3, salv4numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, salv4numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
     ],
     "sections": [
       {
@@ -26,8 +28,10 @@
   {
     "name": "Evil Route Night 2",
     "access_rules": [
-      //read as: finished night 1
-      "salv1numb1, springtrap_key, hachet_key"
+      "easy, salv1numb1, springtrap_key, hachet_key",
+      "normal, salv1numb2, springtrap_key, hachet_key",
+      "hard, salv1numb3, springtrap_key, hachet_key",
+      "lunatic, salv1numb4, springtrap_key, hachet_key"
     ],
     "sections": [
       {
@@ -47,7 +51,10 @@
     "name": "Evil Route Night 3",
     "access_rules": [
       //read as: finished night 2
-      "salv1numb1, salv2numb1, springtrap_key, hachet_key, parts_and_services_key, lefty_key"
+      "easy, salv1numb1, salv2numb1, springtrap_key, hachet_key, parts_and_services_key, lefty_key",
+      "normal, salv1numb2, salv2numb2, springtrap_key, hachet_key, parts_and_services_key, lefty_key",
+      "hard, salv1numb3, salv2numb3, springtrap_key, hachet_key, parts_and_services_key, lefty_key",
+      "lunatic, salv1numb4, salv2numb4, springtrap_key, hachet_key, parts_and_services_key, lefty_key"
     ],
     "sections": [
       {
@@ -67,7 +74,10 @@
     "name": "Evil Route Night 4",
     "access_rules": [
       //read as: finished night 3
-      "salv1numb1, salv2numb1, salv3numb1, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key"
+      "easy, salv1numb1, salv2numb1, salv3numb1, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key",
+      "normal, salv1numb2, salv2numb2, salv3numb2, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key",
+      "hard, salv1numb3, salv2numb3, salv3numb3, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key"
     ],
     "sections": [
       {
@@ -87,7 +97,10 @@
     "name": "Evil Route Night 5",
     "access_rules": [
       //read as: finished night 4
-      "salv1numb1, salv2numb1, salv3numb1, salv4numb1, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
+      "easy, salv1numb1, salv2numb1, salv3numb1, salv4numb1, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key",
+      "normal, salv1numb2, salv2numb2, salv3numb2, salv4numb2, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key",
+      "hard, salv1numb3, salv2numb3, salv3numb3, salv4numb3, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, salv4numb4, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
     ],
     "sections": [
       {
@@ -103,11 +116,14 @@
       }
     ]
   },
+  //good checks
   {
     "name": "Good Ending (Not a check)",
     "access_rules": [
-      //read as: has at least 2 progressive and 1 consumable
-      "freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb1, salv2numb1, salv3numb1, salv4numb1"
+      "easy, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb1, salv2numb1, salv3numb1, salv4numb1",
+      "normal, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb2, salv2numb2, salv3numb2, salv4numb2",
+      "hard, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb3, salv2numb3, salv3numb3, salv4numb3",
+      "lunatic, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb4, salv2numb4, salv3numb4, salv4numb4"
     ],
     "sections": [
       {
@@ -127,7 +143,10 @@
     "name": "Good Route Night 2",
     "access_rules": [
       //read as: finished night 1
-      "salv1numb1, salv2numb1, freddy_mask_key, progressive_present1"
+      "easy, salv1numb1, salv2numb1, freddy_mask_key, progressive_present1",
+      "normal, salv1numb2, salv2numb2, freddy_mask_key, progressive_present1",
+      "hard, salv1numb3, salv2numb3, freddy_mask_key, progressive_present1",
+      "lunatic, salv1numb4, salv2numb4, freddy_mask_key, progressive_present1"
     ],
     "sections": [
       {
@@ -147,7 +166,10 @@
     "name": "Good Route Night 3",
     "access_rules": [
       //read as: finished night 2
-      "salv1numb1, salv2numb1, salv3numb1, freddy_mask_key, bonnie_mask_key, progressive_present2"
+      "easy, salv1numb1, salv2numb1, salv3numb1, freddy_mask_key, bonnie_mask_key, progressive_present2",
+      "normal, salv1numb2, salv2numb2, salv3numb2, freddy_mask_key, bonnie_mask_key, progressive_present2",
+      "hard, salv1numb3, salv2numb3, salv3numb3, freddy_mask_key, bonnie_mask_key, progressive_present2",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, freddy_mask_key, bonnie_mask_key, progressive_present2"
     ],
     "sections": [
       {
@@ -167,7 +189,10 @@
     "name": "Good Route Night 4",
     "access_rules": [
       //read as: finished night 3
-      "salv1numb1, salv2numb1, salv3numb1, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
+      "easy, salv1numb1, salv2numb1, salv3numb1, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3",
+      "normal, salv1numb2, salv2numb2, salv3numb2, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3",
+      "hard, salv1numb3, salv2numb3, salv3numb3, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
     ],
     "sections": [
       {
@@ -187,7 +212,10 @@
     "name": "Good Route Night 5",
     "access_rules": [
       //read as: finished night 4
-      "salv1numb1, salv2numb1, salv3numb1, salv4numb1, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
+      "easy, salv1numb1, salv2numb1, salv3numb1, salv4numb1, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4",
+      "normal, salv1numb2, salv2numb2, salv3numb2, salv4numb2, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4",
+      "hard, salv1numb3, salv2numb3, salv3numb3, salv4numb3, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, salv4numb4, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
     ],
     "sections": [
       {
@@ -207,7 +235,10 @@
     "name": "Money Ending (Not a check)",
     "access_rules": [
       //read as: has the files
-     "salv1numb1, salv2numb1, salv3numb1, salv4numb1, salv5numb1, talbert_files"
+     "easy, salv1numb1, salv2numb1, salv3numb1, salv4numb1, salv5numb1, talbert_files",
+     "normal, salv1numb2, salv2numb2, salv3numb2, salv4numb2, salv5numb2, talbert_files",
+     "hard, salv1numb3, salv2numb3, salv3numb3, salv4numb3, salv5numb3, talbert_files",
+     "lunatic, salv1numb4, salv2numb4, salv3numb4, salv4numb4, salv5numb4, talbert_files"
     ],
     "sections": [
       {
@@ -246,7 +277,10 @@
     "visibility_rules": ["money", "slacker", "evil", "good"],
     "access_rules": [
       //read as: finished night 1
-      "salv1numb1"
+      "easy, salv1numb1",
+      "normal, salv1numb2",
+      "hard, salv1numb3",
+      "lunatic, salv1numb4"
     ],
     "sections": [
       {
@@ -267,7 +301,10 @@
     "visibility_rules": ["money", "slacker", "evil", "good"],
     "access_rules": [
       //read as: finished night 2
-      "salv1numb1, salv2numb1"
+      "easy, salv1numb1, salv2numb1",
+      "normal, salv1numb2, salv2numb2",
+      "hard, salv1numb3, salv2numb3",
+      "lunatic, salv1numb4, salv2numb4"
     ],
     "sections": [
       {
@@ -288,7 +325,10 @@
     "visibility_rules": ["money", "slacker", "evil", "good"],
     "access_rules": [
       //read as: finished night 3
-      "salv1numb1, salv2numb1, salv3numb1"
+      "easy, salv1numb1, salv2numb1, salv3numb1",
+      "normal, salv1numb2, salv2numb2, salv3numb2",
+      "hard, salv1numb3, salv2numb3, salv3numb3",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4"
     ],
     "sections": [
       {
@@ -309,7 +349,10 @@
     "visibility_rules": ["money", "slacker", "evil", "good"],
     "access_rules": [
       //read as: finished night 4
-      "salv1numb1, salv2numb1, salv3numb1, salv4numb1"
+      "easy, salv1numb1, salv2numb1, salv3numb1, salv4numb1",
+      "normal, salv1numb2, salv2numb2, salv3numb2, salv4numb2",
+      "hard, salv1numb3, salv2numb3, salv3numb3, salv4numb3",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, salv4numb4"
     ],
     "sections": [
       {
@@ -348,7 +391,10 @@
     "visibility_rules": ["ultim"],
     "access_rules": [
       //read as: finished night 1
-      "salv1numb1, hachet_key, springtrap_key, freddy_mask_key, progressive_present1"
+      "easy, salv1numb1, hachet_key, springtrap_key, freddy_mask_key, progressive_present1",
+      "normal, salv1numb2, hachet_key, springtrap_key, freddy_mask_key, progressive_present1",
+      "hard, salv1numb3, hachet_key, springtrap_key, freddy_mask_key, progressive_present1",
+      "lunatic, salv1numb4, hachet_key, springtrap_key, freddy_mask_key, progressive_present1"
     ],
     "sections": [
       {
@@ -369,7 +415,10 @@
     "visibility_rules": ["ultim"],
     "access_rules": [
       //read as: finished night 2
-      "salv1numb1, salv2numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2"
+      "easy, salv1numb1, salv2numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2",
+      "normal, salv1numb2, salv2numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2",
+      "hard, salv1numb3, salv2numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2",
+      "lunatic, salv1numb4, salv2numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2"
     ],
     "sections": [
       {
@@ -390,7 +439,10 @@
     "visibility_rules": ["ultim"],
     "access_rules": [
       //read as: finished night 3
-      "salv1numb1, salv2numb1, salv3numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
+      "easy, salv1numb1, salv2numb1, salv3numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3",
+      "normal, salv1numb2, salv2numb2, salv3numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3",
+      "hard, salv1numb3, salv2numb3, salv3numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
     ],
     "sections": [
       {
@@ -411,7 +463,10 @@
     "visibility_rules": ["ultim"],
     "access_rules": [
       //read as: finished night 4
-      "salv1numb1, salv2numb1, salv3numb1, salv4numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
+      "easy, salv1numb1, salv2numb1, salv3numb1, salv4numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4",
+      "normal, salv1numb2, salv2numb2, salv3numb2, salv4numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4",
+      "hard, salv1numb3, salv2numb3, salv3numb3, salv4numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, salv4numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
     ],
     "sections": [
       {
@@ -431,1357 +486,10 @@
     "name": "Ultimate Ending (Not a check)",
     "access_rules": [
       //read as: has at least 2 progressive and 1 consumable
-      "salv1numb1, salv2numb1, salv3numb1, salv4numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files"
-    ],
-    "sections": [
-      {
-        "name": "Ultimate Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1567,
-        "y": 622
-      }
-    ]
-  }
-    ]
-  },
-  {
-    "name": "Normaldiff Ending Checks",
-        "visibility_rules": [
-    "normal"],
-    "children": [
-      {
-    "name": "Evil Ending (Not a check)",
-    "access_rules": [
-      "salv1numb2, salv2numb2, salv3numb2, salv4numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
-    ],
-    "sections": [
-      {
-        "name": "Evil Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 2",
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb2, springtrap_key, hachet_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 3",
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb2, salv2numb2, springtrap_key, hachet_key, parts_and_services_key, lefty_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 4",
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb2, salv2numb2, salv3numb2, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 5",
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb2, salv2numb2, salv3numb2, salv4numb2, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Good Ending (Not a check)",
-    "access_rules": [
-      //read as: has at least 2 progressive and 1 consumable
-      "freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb2, salv2numb2, salv3numb2, salv4numb2"
-    ],
-    "sections": [
-      {
-        "name": "Good Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 2",
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb2, freddy_mask_key, progressive_present1"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 3",
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb2, salv2numb2, freddy_mask_key, bonnie_mask_key, progressive_present2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 4",
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb2, salv2numb2, salv3numb2, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 5",
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb2, salv2numb2, salv3numb2, salv4numb2, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Money Ending (Not a check)",
-    "access_rules": [
-      //read as: has the files
-      "salv1numb2, salv2numb2, salv3numb2, salv4numb2, salv5numb2, talbert_files"
-    ],
-    "sections": [
-      {
-        "name": "Money Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 622
-      }
-    ]
-  },
-  //slacker/money nights
-  {
-    "name": "Night 1",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "sections": [
-      {
-        "name": "Survive Night 1",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 78,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 2",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 3",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 2
-      "salv2numb2, salv1numb2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 4",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb2, salv2numb2, salv3numb2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Slacker Ending (aka Night 5)",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb2, salv2numb2, salv3numb2, salv4numb2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5 (Slacker Route Ending)",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 622
-      }
-    ]
-  },
-  //ultim nights
-  {
-    "name": "Ultimate Night 1",
-    "visibility_rules": ["ultim"],
-    "sections": [
-      {
-        "name": "Survive Night 1",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 78,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 2",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb2, hachet_key, springtrap_key, freddy_mask_key, progressive_present1"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 3",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb2, salv2numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 4",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 3
-    "salv1numb2, salv2numb2, salv3numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3" 
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 5",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb2, salv2numb2, salv3numb2, salv4numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Ending (Not a check)",
-    "access_rules": [
-      //read as: has at least 2 progressive and 1 consumable
-      "salv1numb2, salv2numb2, salv3numb2, salv4numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files"
-    ],
-    "sections": [
-      {
-        "name": "Ultimate Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1567,
-        "y": 622
-      }
-    ]
-  }
-    ]
-  },
-  {
-    "name": "Harddiff Ending Checks",    
-    "visibility_rules": [
-    "hard"
-    ],
-    "children": [
-  {
-    "name": "Evil Ending (Not a check)",
-    "access_rules": [
-     "salv1numb3, salv2numb3, salv3numb3, salv4numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
-    ],
-    "sections": [
-      {
-        "name": "Evil Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 2",
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb3, springtrap_key, hachet_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 3",
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb3, salv2numb3, springtrap_key, hachet_key, parts_and_services_key, lefty_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 4",
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb3, salv2numb3, salv3numb3, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 5",
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb3, salv2numb3, salv3numb3, salv4numb3, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Good Ending (Not a check)",
-    "access_rules": [
-      //read as: has at least 2 progressive and 1 consumable
-      "freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb3, salv2numb3, salv3numb3, salv4numb3"
-    ],
-    "sections": [
-      {
-        "name": "Good Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 2",
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb3, night1compcheck, freddy_mask_key, progressive_present1"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 3",
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb3, salv2numb3, freddy_mask_key, bonnie_mask_key, progressive_present2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 4",
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb3, salv2numb3, salv3numb3, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 5",
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb3, salv2numb3, salv3numb3, salv4numb3,freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Money Ending (Not a check)",
-    "access_rules": [
-      //read as: has the files
-      "salv1numb3, salv2numb3, salv3numb3, salv4numb3, salv5numb3, talbert_files"
-    ],
-    "sections": [
-      {
-        "name": "Money Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 622
-      }
-    ]
-  },
-  //slacker/money nights hard
-  {
-    "name": "Night 1",
-    "sections": [
-      {
-        "name": "Survive Night 1",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 78,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 2",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 3",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb3, salv2numb3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 4",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb3, salv2numb3, salv3numb3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Slacker Ending (aka Night 5)",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb3, salv2numb3, salv3numb3, salv4numb3,"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5 (Slacker Route Ending)",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 622
-      }
-    ]
-  },
-  //ultim nights hard
-  {
-    "name": "Ultimate Night 1",
-    "visibility_rules": ["ultim"],
-    "sections": [
-      {
-        "name": "Survive Night 1",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 78,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 2",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 3",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb3, salv2numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 4",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb3, salv2numb3, salv3numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 5",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb3, salv2numb3, salv3numb3, salv4numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Ending (Not a check)",
-    "access_rules": [
-      //read as: has at least 2 progressive and 1 consumable
-      "salv1numb3, salv2numb3, salv3numb3, salv4numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files"
-    ],
-    "sections": [
-      {
-        "name": "Ultimate Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1567,
-        "y": 622
-      }
-    ]
-  }
-    ]
-  },
-  {
-    "name": "Lunaticdiff Ending Checks",    
-    "visibility_rules": [
-    "lunatic"
-    ],
-    "children": [
-  {
-    "name": "Evil Ending (Not a check)",
-    "access_rules": [
-      "salv1numb4, salv2numb4, salv3numb4, salv4numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
-    ],
-    "sections": [
-      {
-        "name": "Evil Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 2",
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb4, springtrap_key, hachet_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 3",
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb4, salv2numb4, springtrap_key, hachet_key, parts_and_services_key, lefty_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 4",
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb4, salv2numb4, salv3numb4, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Evil Route Night 5",
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb4, salv2numb4, salv3numb4, salv4numb4, springtrap_key, hachet_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 354
-      }
-    ]
-  },
-  {
-    "name": "Good Ending (Not a check)",
-    "access_rules": [
-      //read as: has at least 2 progressive and 1 consumable
-      "freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, salv1numb4, salv2numb4, salv3numb4, salv4numb4"
-    ],
-    "sections": [
-      {
-        "name": "Good Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 2",
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb4, freddy_mask_key, progressive_present1"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 3",
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb4, salv2numb4, freddy_mask_key, bonnie_mask_key, progressive_present2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 4",
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb4, salv2numb4, salv3numb4, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Good Route Night 5",
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb4, salv2numb4, salv3numb4, salv4numb4, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 913
-      }
-    ]
-  },
-  {
-    "name": "Money Ending (Not a check)",
-    "access_rules": [
-      //read as: has the files
-      "salv1numb4, salv2numb4, salv3numb4, salv4numb4, salv5numb4, talbert_files"
-    ],
-    "sections": [
-      {
-        "name": "Money Route Ending",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 1259,
-        "y": 622
-      }
-    ]
-  },
-  //slacker checks luna
-  {
-    "name": "Night 1",
-    "sections": [
-      {
-        "name": "Survive Night 1",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 78,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 2",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 3",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb4, salv2numb4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Night 4",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb4, salv2numb4, salv3numb4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Slacker Ending (aka Night 5)",
-    "visibility_rules": ["money", "slacker", "evil", "good"],
-    "access_rules": [
-      //read as: finished night 4
-      "salv1numb4, salv2numb4, salv3numb4, salv4numb4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5 (Slacker Route Ending)",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 622
-      }
-    ]
-  },
-  //ultim nights luna 
-  {
-    "name": "Ultimate Night 1",
-    "visibility_rules": ["ultim"],
-    "sections": [
-      {
-        "name": "Survive Night 1",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 78,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 2",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 1
-      "salv1numb4, hachet_key, springtrap_key, freddy_mask_key, progressive_present1"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 2",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 312,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 3",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 2
-      "salv1numb4, salv2numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, freddy_mask_key, bonnie_mask_key, progressive_present2"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 3",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 536,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 4",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 3
-      "salv1numb4, salv2numb4, salv3numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, progressive_present3"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 4",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 760,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Night 5",
-    "visibility_rules": ["ultim"],
-    "access_rules": [
-      //read as: finished night 4
-    "salv1numb4, salv2numb4, salv3numb4, salv4numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, box_code, scrap_baby_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4"
-    ],
-    "sections": [
-      {
-        "name": "Survive Night 5",
-        "item_count": 1
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "Route_Progression",
-        "x": 984,
-        "y": 622
-      }
-    ]
-  },
-  {
-    "name": "Ultimate Ending (Not a check)",
-    "access_rules": [
-      //read as: has at least 2 progressive and 1 consumable
-      "salv1numb4, salv2numb4, salv3numb4, salv4numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files"
+      "easy, salv1numb1, salv2numb1, salv3numb1, salv4numb1, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files",
+      "normal, salv1numb2, salv2numb2, salv3numb2, salv4numb2, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files",
+      "hard, salv1numb3, salv2numb3, salv3numb3, salv4numb3, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files",
+      "lunatic, salv1numb4, salv2numb4, salv3numb4, salv4numb4, hachet_key, springtrap_key, parts_and_services_key, lefty_key, keypad_code, scrap_baby_key, box_code, molten_freddy_key, freddy_mask_key, bonnie_mask_key, chica_mask_key, foxy_mask_key, progressive_present4, talbert_files"
     ],
     "sections": [
       {
