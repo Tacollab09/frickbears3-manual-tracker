@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Freddy",
+        "type": "toggle",
+        "codes": "freddy_key"
+    }, 
+    {
+        "name": "Bonnie",
+        "type": "toggle",
+        "codes": "bonnie_key"
+    }, 
+    {
+        "name": "Chica",
+        "type": "toggle",
+        "codes": "chica_key"
+    }, 
+    {
+        "name": "Foxy",
+        "type": "toggle",
+        "codes": "foxy_key"
+    }, 
+    {
+        "name": "Marionette",
+        "type": "toggle",
+        "codes": "puppet_key"
+    }
+]
